@@ -1,3 +1,57 @@
+---
+permalink: /
+title: "About Me"
+excerpt: "About Me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+I am currently a Research Master's (M.Phil) student in Information Architecture at **Waseda University** (Japan), focusing on **3D Generation** and **Computer Vision**. 
+
+Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **4399 Games** for three years, where I contributed to the rendering pipeline of the globally released title *"Era of Conquest"*. I obtained my B.E. degree in Software Engineering from **Sun Yat-sen University** (SYSU) in 2021.
+
+🔥 **I am actively looking for Research Assistant (RA) and Ph.D. opportunities.**
+
+---
+
+## 🎓 Education
+
+* **Waseda University**, Tokyo, Japan
+  * *M.Phil in Information Architecture*
+  * 2025 - 2027 (Expected)
+  * Research Interest: 3D Generation
+
+* **Sun Yat-sen University (SYSU)**, Guangzhou, China
+  * *B.E. in Software Engineering*
+  * 2017 - 2021
+  * **GPA: 3.7 / 4.0**
+
+---
+
+## 💼 Work Experience
+
+* **Senior Graphics Engineer**, 4399 Games
+  * *2021 - 2024*
+  * **Representative Work:** *Era of Conquest* (Mobile SLG Game)
+  * Responsible for rendering optimization and feature development.
+
+---
+
+## 📝 Publications
+
+* **SIE3D: [Please Insert Full Title Here]**
+  * **Zhiqi Huang**, Co-authors...
+  * *IEEE International Conference on Acoustics, Speech and Signal Processing (**ICASSP**), 2026* (Accepted)
+  * [Project Page](https://huang-zhiqi.github.io/SIE3D/) | [PDF](Links to arXiv)
+
+---
+
+## 🏆 Honors & Awards
+
+* **Third-class Academic Scholarship**, Sun Yat-sen University, 2018-2019
+
 <!-- ---
 permalink: /
 title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
