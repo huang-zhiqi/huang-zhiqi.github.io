@@ -45,10 +45,10 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
 
 ## 📝 Publications
 
-* **SIE3D: [Please Insert Full Title Here]**
-  * **Zhiqi Huang**, Co-authors...
+* **SIE3D: Single-image Expressive 3D Avatar generation via Semantic Embedding and Perceptual Expression Loss**
+  * **Zhiqi Huang** (Corresponding Author), Dulongkai Cui, Jinglu Hu
   * *IEEE International Conference on Acoustics, Speech and Signal Processing (**ICASSP**), 2026* (Accepted)
-  * [Project Page](https://huang-zhiqi.github.io/SIE3D/) | [PDF](Links to arXiv)
+  * [Project Page](https://huang-zhiqi.github.io/SIE3D/) | [arXiv](https://arxiv.org/abs/2509.24004)
 
 ---
 
