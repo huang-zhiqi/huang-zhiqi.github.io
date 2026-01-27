@@ -33,10 +33,13 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
 
 ## 💼 Work Experience
 
-* **Senior Graphics Engineer**, 4399 Games
-  * *2021 - 2024*
-  * **Representative Work:** *Era of Conquest* (Mobile SLG Game)
-  * Responsible for rendering optimization and feature development.
+* **4399 Games**, Guangzhou, China
+  * **Senior Graphics Engineer**
+    * *2023 - 2024*
+    * Promoted to Senior level. Led the rendering pipeline optimization for the global release of *Era of Conquest*.
+  * **Graphics Engineer**
+    * *2021 - 2023*
+    * Responsible for feature development and shader programming.
 
 ---
 
