@@ -20,8 +20,9 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
 
 * **Waseda University**, Tokyo, Japan
   * *M.Phil in Information Architecture*
-  * 2025 - 2027 (Expected)
+  * 2025 - 2027.3 (Expected)
   * Research Interest: 3D Generation
+  * **GPA: 3.8 / 4.0**
 
 * **Sun Yat-sen University (SYSU)**, Guangzhou, China
   * *B.E. in Software Engineering*
