@@ -62,12 +62,12 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
       <a href="https://huang-zhiqi.github.io/SIE3D/">SIE3D: Single-image Expressive 3D Avatar generation via Semantic Embedding and Perceptual Expression Loss</a>
     </div>
     
-    <div style="margin-top: 5px; color: #444;">
-      <strong>Zhiqi Huang</strong> (Corr.), Dulongkai Cui, Jinglu Hu
+    <div style="margin-top: 5px; font-style: italic;">
+      ICASSP 2026 (<strong>First Author and Corresponding Author</strong>)
     </div>
     
-    <div style="margin-top: 5px; font-style: italic;">
-      IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>), 2026
+    <div style="margin-top: 5px; color: #444;">
+      <strong>Zhiqi Huang</strong>, Dulongkai Cui, Jinglu Hu
     </div>
     
     <div style="margin-top: 5px; font-size: 0.9em; color: #666;">
