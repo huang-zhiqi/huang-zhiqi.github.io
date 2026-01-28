@@ -55,6 +55,7 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
   * **Zhiqi Huang** (**First Author**, **Corresponding Author**), Dulongkai Cui, Jinglu Hu
   * *IEEE International Conference on Acoustics, Speech and Signal Processing (**ICASSP**), 2026* (Accepted)
   * **Highlight:** We propose a semantic-aware framework to generate expressive 3D avatars from a single image, achieving state-of-the-art geometry quality.
+  [Project Page](https://huang-zhiqi.github.io/SIE3D/) | [Paper (arXiv:2509.24004)](https://arxiv.org/abs/2509.24004) | [Code (GitHub)](https://github.com/huang-zhiqi/SIE3D)
   * 🔗 [Project Page](https://huang-zhiqi.github.io/SIE3D/) | [arXiv](https://arxiv.org/abs/2509.24004) | [Code](https://github.com/huang-zhiqi/SIE3D)
 
 ## 📝 Publications
