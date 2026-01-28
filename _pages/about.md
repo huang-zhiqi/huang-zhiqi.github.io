@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Research Master's (M.Phil) student in Information Architecture at **Waseda University** (早稲田大学), focusing on **3D Generation** and **Computer Vision**. 
+I am currently a Master's (M.Phil) student in Information Architecture at **Waseda University** (早稲田大学), focusing on **3D Generation** and **Computer Vision**. 
 
 Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **4399 Games** for three years, where I contributed to the rendering pipeline of the globally released title *"Era of Conquest"*. I obtained my B.E. degree in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
@@ -50,6 +50,37 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
   * *IEEE International Conference on Acoustics, Speech and Signal Processing (**ICASSP**), 2026* (Accepted)
   * [Project Page](https://huang-zhiqi.github.io/SIE3D/) | [arXiv](https://arxiv.org/abs/2509.24004)
 
+## 📝 Publications
+
+<div style="display: flex; gap: 20px; margin-bottom: 25px;">
+  <div style="flex: 0 0 30%;">
+    <img src="/images/sie3d_teaser.png" alt="SIE3D Teaser" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  </div>
+
+  <div style="flex: 1;">
+    <div style="font-weight: bold; font-size: 1.1em;">
+      <a href="https://huang-zhiqi.github.io/SIE3D/">SIE3D: Single-image Expressive 3D Avatar generation via Semantic Embedding and Perceptual Expression Loss</a>
+    </div>
+    
+    <div style="margin-top: 5px; color: #444;">
+      <strong>Zhiqi Huang</strong> (Corr.), Dulongkai Cui, Jinglu Hu
+    </div>
+    
+    <div style="margin-top: 5px; font-style: italic;">
+      IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>), 2026
+    </div>
+    
+    <div style="margin-top: 5px; font-size: 0.9em; color: #666;">
+      We propose a semantic-aware framework to generate expressive 3D avatars from a single image, achieving state-of-the-art geometry quality.
+    </div>
+
+    <div style="margin-top: 8px;">
+      <a href="https://huang-zhiqi.github.io/SIE3D/" style="text-decoration: none; margin-right: 10px;">[Project Page]</a>
+      <a href="https://arxiv.org/abs/2509.24004" style="text-decoration: none; margin-right: 10px;">[arXiv]</a>
+      <a href="#" style="text-decoration: none; color: gray;">[Code (Coming Soon)]</a>
+    </div>
+  </div>
+</div>
 ---
 
 ## 🏆 Honors & Awards
