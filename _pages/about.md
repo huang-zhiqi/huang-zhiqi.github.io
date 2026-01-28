@@ -54,7 +54,7 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
 
 <div style="display: flex; gap: 20px; margin-bottom: 25px;">
   <div style="flex: 0 0 30%;">
-    <img src="/images/sie3d_teaser.png" alt="SIE3D Teaser" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="/images/sie3d_teaser.jpg" alt="SIE3D Teaser" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
   </div>
 
   <div style="flex: 1;">
