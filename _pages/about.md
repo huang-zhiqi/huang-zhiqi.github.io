@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Research Master's (M.Phil) student in Information Architecture at **Waseda University** (Japan), focusing on **3D Generation** and **Computer Vision**. 
+I am currently a Research Master's (M.Phil) student in Information Architecture at **Waseda University** (早稲田大学), focusing on **3D Generation** and **Computer Vision**. 
 
-Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **4399 Games** for three years, where I contributed to the rendering pipeline of the globally released title *"Era of Conquest"*. I obtained my B.E. degree in Software Engineering from **Sun Yat-sen University** (SYSU) in 2021.
+Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **4399 Games** for three years, where I contributed to the rendering pipeline of the globally released title *"Era of Conquest"*. I obtained my B.E. degree in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
 🔥 **I am actively looking for Research Assistant (RA) and Ph.D. opportunities.**
 
