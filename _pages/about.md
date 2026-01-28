@@ -45,12 +45,6 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
 
 ## 📝 Publications
 
-**SIE3D: Single-image Expressive 3D Avatar generation via Semantic Embedding and Perceptual Expression Loss** *IEEE ICASSP 2026 (Accepted)* — **First Author, Corresponding Author** Authors: **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu  
-> We propose a semantic-aware framework to generate expressive 3D avatars from a single image, achieving state-of-the-art geometry quality.  
-[Project Page](https://huang-zhiqi.github.io/SIE3D/) | [Paper (arXiv:2509.24004)](https://arxiv.org/abs/2509.24004) | [Code (GitHub)](https://github.com/huang-zhiqi/SIE3D)
-
-## 📝 Publications
-
 * **SIE3D: Single-image Expressive 3D Avatar generation via Semantic Embedding and Perceptual Expression Loss**
   * *IEEE ICASSP 2026 (Accepted)* — **First Author, Corresponding Author** 
   * Authors: **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
@@ -58,47 +52,6 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
 > We propose a semantic-aware framework to generate expressive 3D avatars from a single image, achieving state-of-the-art geometry quality.  
 [Project Page](https://huang-zhiqi.github.io/SIE3D/) | [Paper (arXiv:2509.24004)](https://arxiv.org/abs/2509.24004) | [Code (GitHub)](https://github.com/huang-zhiqi/SIE3D)
 
-## 📝 Publications
-
-* **SIE3D: Single-image Expressive 3D Avatar generation via Semantic Embedding and Perceptual Expression Loss**
-  <br>_IEEE International Conference on Acoustics, Speech and Signal Processing (**ICASSP**), 2026 (Accepted)_
-  <br>Authors: **Zhiqi Huang** (**First Author**, **Corresponding Author**), Dulongkai Cui, Jinglu Hu
-
-  > **Highlight:** We propose a semantic-aware framework to generate expressive 3D avatars from a single image, achieving state-of-the-art geometry quality.
-  > 
-  > [Project Page](https://huang-zhiqi.github.io/SIE3D/) | [Paper (arXiv:2509.24004)](https://arxiv.org/abs/2509.24004) | [Code (GitHub)](https://github.com/huang-zhiqi/SIE3D)
-
-## 📝 Publications
-
-<div style="display: flex; gap: 20px; margin-bottom: 25px;">
-  <div style="flex: 0 0 30%;">
-    <img src="/images/sie3d_teaser.jpg" alt="SIE3D Teaser" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-  </div>
-
-  <div style="flex: 1;">
-    <div style="font-weight: bold; font-size: 1.1em;">
-      <a href="https://huang-zhiqi.github.io/SIE3D/">SIE3D: Single-image Expressive 3D Avatar generation via Semantic Embedding and Perceptual Expression Loss</a>
-    </div>
-    
-    <div style="margin-top: 5px; font-style: italic;">
-      ICASSP 2026 (<strong>First Author and Corresponding Author</strong>)
-    </div>
-    
-    <div style="margin-top: 5px; color: #444;">
-      <strong>Zhiqi Huang</strong>, Dulongkai Cui, Jinglu Hu
-    </div>
-    
-    <div style="margin-top: 5px; font-size: 0.9em; color: #666;">
-      We propose a semantic-aware framework to generate expressive 3D avatars from a single image, achieving state-of-the-art geometry quality.
-    </div>
-
-    <div style="margin-top: 8px;">
-      <a href="https://huang-zhiqi.github.io/SIE3D/" style="text-decoration: none; margin-right: 10px;">[Project Page]</a>
-      <a href="https://arxiv.org/abs/2509.24004" style="text-decoration: none; margin-right: 10px;">[arXiv]</a>
-      <a href="#" style="text-decoration: none; color: gray;">[Code (Coming Soon)]</a>
-    </div>
-  </div>
-</div>
 ---
 
 ## 🏆 Honors & Awards
