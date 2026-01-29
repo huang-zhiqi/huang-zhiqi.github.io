@@ -12,7 +12,7 @@ I am currently a Master's (M.Phil) student in Information Architecture at **Wase
 
 Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **4399 Games** for three years, where I contributed to the rendering pipeline of the globally released title *"Era of Conquest"*. I obtained my B.E. degree in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
-🔥 **I am actively seeking Research Assistant (RA) positions and looking for Ph.D. opportunities starting from April 2027.**
+🔥 **I am currently seeking Research Assistant (RA) positions (Remote or Onsite) for immediate start. I am also looking for Ph.D. opportunities for the 2027 intake (Spring or Fall).**
 ---
 
 ## 🎓 Education
