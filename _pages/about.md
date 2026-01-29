@@ -34,7 +34,7 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
 
 * **4399 Games**, Guangzhou, China
   * **Senior Graphics Engineer**
-    * *2024*
+    * *2023 - 2024*
     * **Promoted to Technical Lead** for a rendering squad of 3-5 members.
     * Oversaw the rendering roadmap for *Era of Conquest* (**Mobile & PC**) and led the graphics development for **multiple titles in development** (**Mobile, PC & Web**).
   * **Graphics Engineer**
