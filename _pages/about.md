@@ -34,11 +34,12 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
 
 * **4399 Games**, Guangzhou, China
   * **Senior Graphics Engineer**
-    * *2023 - 2024*
-    * Promoted to Senior level. Led the rendering pipeline optimization for the global release of *Era of Conquest*.
+    * *2024*
+    * **Promoted to Technical Lead** for a rendering squad of 3-5 members.
+    * Oversaw the rendering roadmap for *Era of Conquest* (**Mobile & PC**) and led the graphics development for **multiple titles in development** (**Mobile, PC & Web**).
   * **Graphics Engineer**
     * *2021 - 2023*
-    * Responsible for feature development and shader programming.
+    * Core developer for the rendering pipeline of *Era of Conquest* (**Mobile & PC**). Focused on **cross-platform** shader optimization, PBR rendering, and performance profiling.
 
 ---
 
