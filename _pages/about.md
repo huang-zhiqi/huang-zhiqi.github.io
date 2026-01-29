@@ -49,7 +49,7 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
   * *IEEE ICASSP 2026 (Accepted)* — **First Author, Corresponding Author** 
   * Authors: **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
   
-> We propose a semantic-aware framework to generate expressive 3D avatars from a single image, achieving state-of-the-art geometry quality.  
+> **Highlight:** We propose **SIE3D**, a framework for generating text-controllable 3D avatars from a single image. By introducing a novel **semantic embedding fusion** and a **perceptual expression loss**, we achieve state-of-the-art expression fidelity and identity preservation on consumer-grade GPUs.  
 [Project Page](https://huang-zhiqi.github.io/SIE3D/) | [Paper (arXiv:2509.24004)](https://arxiv.org/abs/2509.24004) | [Code (GitHub)](https://github.com/huang-zhiqi/SIE3D)
 
 ---
