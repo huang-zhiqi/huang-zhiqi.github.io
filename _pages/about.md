@@ -36,7 +36,7 @@ Prior to my graduate studies, I worked as a **Senior Graphics Engineer** at **43
   * **Senior Graphics Engineer**
     * *2023 - 2024*
     * **Promoted to Technical Lead** for a rendering squad of 3-5 members.
-    * Oversaw the rendering roadmap for *Era of Conquest* (**Mobile & PC**). Led the graphics development for *Catch & Build: Land of Pals* and other **unannounced titles** (**Mobile, PC & Web**).
+    * Oversaw the rendering roadmap for *Era of Conquest* (**Mobile & PC**). Led the graphics development for *Catch & Build: Land of Pals* and other unannounced titles (**Mobile, PC & Web**).
   * **Graphics Engineer**
     * *2021 - 2023*
     * Core developer for the rendering pipeline of *Era of Conquest* (**Mobile & PC**). Focused on **cross-platform** shader optimization, PBR rendering, and performance profiling.
