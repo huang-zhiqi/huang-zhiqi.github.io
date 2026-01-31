@@ -19,7 +19,7 @@ Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for thr
 ## 🎓 Education
 
 * **Waseda University (早稲田大学)**, Tokyo, Japan
-  * *M.Phil in Information Architecture*
+  * *M.Phil in Information Architecture* (English-taught Program)
   * 2025 - 2027.3 (Expected)
   * Research Interest: 3D Generation
   * **GPA: 3.8 / 4.0** (Expected)
@@ -60,6 +60,13 @@ Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for thr
 * **Languages**: C++, Python, C#, GLSL/HLSL
 * **Graphics & Engines**: Vulkan, OpenGL, Unity
 * **Research & AI**: PyTorch, 3D Generation, Computer Vision
+
+---
+
+## 🗣️ Languages
+
+* **Chinese**: Native (Mandarin & Cantonese)
+* **English**: Fluent (TOEFL: 90, English-taught Master's Program)
 
 ---
 
