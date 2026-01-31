@@ -37,7 +37,7 @@ Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for thr
 ## 💼 Work Experience
 
 * **4399 Games**, Guangzhou, China
-  * **Senior Graphics Engineer / Technical Lead**
+  * **Senior Graphics Engineer**
     * *2023 - 2024*
     * Led a rendering squad of 3-5 members; defined and executed the rendering roadmap for *"Era of Conquest"* (**Mobile & PC**).
     * Spearheaded graphics development for new titles including *"Catch & Build: Land of Pals"* (**Mobile, PC & Web**).
