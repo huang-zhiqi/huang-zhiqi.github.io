@@ -12,7 +12,10 @@ I am a Master's (M.Phil) student in Information Architecture at **Waseda Univers
 
 Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for three years, where I contributed to the rendering pipeline of the globally released title *"Era of Conquest"*. I received my B.E. degree in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
-🔥 **I am currently seeking Research Assistant (RA) positions (Remote or Onsite) for immediate start. I am also looking for Ph.D. opportunities for the 2027 intake (Spring or Fall).**
+🔥 **News**
+*   **[Jan 2026]** One paper titled **"SIE3D"** (First Author) is accepted to **ICASSP 2026**!
+*   **[Seeking]** I am currently seeking **Research Assistant (RA)** positions (Remote or Onsite) for immediate start.
+*   **[Seeking]** I am also looking for **Ph.D. opportunities** for the 2027 intake (Spring or Fall).
 
 ---
 
@@ -34,13 +37,13 @@ Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for thr
 ## 💼 Work Experience
 
 * **4399 Games**, Guangzhou, China
-  * **Senior Graphics Engineer**
+  * **Senior Graphics Engineer / Technical Lead**
     * *2023 - 2024*
-    * **Promoted to Technical Lead** for a rendering squad of 3-5 members.
-    * Oversaw the rendering roadmap for *Era of Conquest* (**Mobile & PC**). Led the graphics development for *Catch & Build: Land of Pals* and other unannounced titles (**Mobile, PC & Web**).
+    * Led a rendering squad of 3-5 members; defined and executed the rendering roadmap for *"Era of Conquest"* (**Mobile & PC**).
+    * Spearheaded graphics development for new titles including *"Catch & Build: Land of Pals"* (**Mobile, PC & Web**).
   * **Graphics Engineer**
     * *2021 - 2023*
-    * Core developer for the rendering pipeline of *Era of Conquest* (**Mobile & PC**). Focused on **cross-platform** shader optimization, PBR rendering, and performance profiling.
+    * Engineered the rendering pipeline for *"Era of Conquest"*; focused on **cross-platform** shader optimization, PBR rendering, and performance profiling.
 
 ---
 
@@ -58,8 +61,8 @@ Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for thr
 ## 💻 Tech Stack
 
 * **Languages**: C++, Python, C#, GLSL/HLSL
-* **Graphics & Engines**: Vulkan, OpenGL, Unity
-* **Research & AI**: PyTorch, 3D Generation, Computer Vision
+* **Graphics & Games**: Vulkan, OpenGL, Unity, Real-time Rendering (PBR)
+* **Research & AI**: PyTorch, 3D Gaussian Splatting, Diffusion Models, CLIP
 
 ---
 
@@ -72,4 +75,4 @@ Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for thr
 
 ## 🏆 Honors & Awards
 
-* **Third-class Academic Scholarship**, Sun Yat-sen University, 2018-2019
+* **Academic Scholarship**, Sun Yat-sen University, 2018-2019
