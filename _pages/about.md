@@ -49,7 +49,7 @@ Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for thr
 
 ## 📝 Publications
 
-* **SIE3D: Single-image Expressive 3D Avatar generation via Semantic Embedding and Perceptual Expression Loss**
+* **SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss**
   * *IEEE ICASSP 2026 (Accepted)* — **First Author, Corresponding Author** 
   * Authors: **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
   
