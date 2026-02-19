@@ -75,4 +75,4 @@ Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for thr
 
 ## 🏆 Honors & Awards
 
-* **Academic Scholarship**, Sun Yat-sen University, 2018-2019
+* **Outstanding Student Scholarship (Third Prize)**, Sun Yat-sen University, 2018-2019
