@@ -8,24 +8,35 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's (M.Phil) student in Information Architecture at **Waseda University** (早稲田大学). My research interests lie at the intersection of **Computer Graphics** and **Computer Vision**, with a specific focus on **3D Generation**.
+I am an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学), where I work on **3D generation** at the intersection of **computer graphics** and **computer vision**. Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles.
 
-Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for three years, where I contributed to the rendering pipeline of the globally released title *"Era of Conquest"*. I received my B.E. degree in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
+My current interests include expressive 3D avatar generation, semantic control, and practical high-fidelity synthesis on consumer-grade hardware. I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
-🔥 **News**
-*   **[Jan 2026]** One paper titled **"SIE3D"** (First Author) is accepted to **ICASSP 2026**!
-*   **[Seeking]** I am currently seeking **Research Assistant (RA)** positions (Remote or Onsite) for immediate start.
-*   **[Seeking]** I am also looking for **Ph.D. opportunities** for the 2027 intake (Spring or Fall).
+## 🔥 News
+
+* **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
+* **[2026]** I am actively seeking **Research Assistant (RA)** opportunities (remote or onsite) in graphics, vision, or 3D generation.
+* **[2027 Intake]** I am also looking for **Ph.D. opportunities** in related areas.
+
+---
+
+## 📝 Publications
+
+* **SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss**
+  * *IEEE ICASSP 2026 (Accepted)* - **First Author, Corresponding Author**
+  * Authors: **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
+  * A framework for generating text-controllable 3D avatars from a single image through semantic embedding fusion and perceptual expression supervision, with strong expression fidelity and identity preservation on consumer-grade GPUs.
+  * [Project Page](https://huang-zhiqi.github.io/SIE3D/) | [Paper (arXiv:2509.24004)](https://arxiv.org/abs/2509.24004) | [Code (GitHub)](https://github.com/huang-zhiqi/SIE3D)
 
 ---
 
 ## 🎓 Education
 
 * **Waseda University (早稲田大学)**, Tokyo, Japan
-  * *M.Phil in Information Architecture* (English-taught Program)
-  * 2025 - 2027.3 (Expected)
-  * Research Interest: 3D Generation
-  * **GPA: 3.8 / 4.0** (Expected)
+  * *M.Phil. in Information Architecture* (English-taught program)
+  * 2025 - Mar. 2027 (expected)
+  * Research focus: Computer graphics, computer vision, and 3D generation
+  * **Current GPA: 3.8 / 4.0**
 
 * **Sun Yat-sen University (中山大学)**, Guangzhou, China
   * *B.E. in Software Engineering*
@@ -39,22 +50,11 @@ Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for thr
 * **4399 Games**, Guangzhou, China
   * **Senior Graphics Engineer**
     * *2023 - 2024*
-    * Led a rendering squad of 3-5 members; defined and executed the rendering roadmap for *"Era of Conquest"* (**Mobile & PC**).
-    * Spearheaded graphics development for new titles including *"Catch & Build: Land of Pals"* (**Mobile, PC & Web**).
+    * Led a rendering team of 3-5 engineers and owned the rendering roadmap for *"Era of Conquest"* across **mobile** and **PC** platforms.
+    * Drove graphics development for new projects including *"Catch & Build: Land of Pals"* across **mobile**, **PC**, and **web**.
   * **Graphics Engineer**
     * *2021 - 2023*
-    * Engineered the rendering pipeline for *"Era of Conquest"*; focused on **cross-platform** shader optimization, PBR rendering, and performance profiling.
-
----
-
-## 📝 Publications
-
-* **SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss**
-  * *IEEE ICASSP 2026 (Accepted)* — **First Author, Corresponding Author** 
-  * Authors: **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
-  
-> **Highlight:** We propose **SIE3D**, a framework for generating text-controllable 3D avatars from a single image. By introducing a novel **semantic embedding fusion** and a **perceptual expression loss**, we achieve state-of-the-art expression fidelity and identity preservation on consumer-grade GPUs.  
-[Project Page](https://huang-zhiqi.github.io/SIE3D/) | [Paper (arXiv:2509.24004)](https://arxiv.org/abs/2509.24004) | [Code (GitHub)](https://github.com/huang-zhiqi/SIE3D)
+    * Built and maintained the rendering pipeline for *"Era of Conquest"*, with a focus on **cross-platform** shader optimization, **physically based rendering**, and performance profiling.
 
 ---
 
@@ -69,7 +69,7 @@ Previously, I worked as a **Senior Graphics Engineer** at **4399 Games** for thr
 ## 🗣️ Languages
 
 * **Chinese**: Native (Mandarin & Cantonese)
-* **English**: Fluent (TOEFL: 90, English-taught Master's Program)
+* **English**: Professional working proficiency (TOEFL iBT: 90; English-taught master's program)
 
 ---
 
