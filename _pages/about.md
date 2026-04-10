@@ -30,6 +30,14 @@ My current interests include expressive 3D avatar generation, semantic control, 
 
 ---
 
+## 📄 Manuscripts Under Review
+
+* **First-author manuscript on text-guided PBR texture generation for 3D meshes**
+  * *Submitted to ACM MM 2026*
+  * A method for generating physically based rendering (PBR) texture maps from a 3D mesh and text prompts.
+
+---
+
 ## 🎓 Education
 
 * **Waseda University (早稲田大学)**, Tokyo, Japan
