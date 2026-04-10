@@ -10,13 +10,21 @@ redirect_from:
 
 I am an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学), where I work on **3D generation** at the intersection of **computer graphics** and **computer vision**. Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles.
 
-My current interests include expressive 3D avatar generation, semantic control, and practical high-fidelity synthesis on consumer-grade hardware. I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
+My recent work focuses on expressive 3D avatars, text-guided material generation, and practical high-fidelity synthesis on consumer-grade hardware. I am increasingly interested in **world models** and, more broadly, **embodied intelligence**, especially where controllable 3D generation, simulation-ready assets, and physically grounded visual understanding meet. I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
 ## 🔥 News
 
 * **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
-* **[2026]** I am actively seeking **Research Assistant (RA)** opportunities (remote or onsite) in graphics, vision, or 3D generation.
+* **[2026]** I am actively seeking **Research Assistant (RA)** opportunities (remote or onsite) in graphics, vision, 3D generation, or world models.
 * **[2027 Intake]** I am also looking for **Ph.D. opportunities** in related areas.
+
+---
+
+## 🔭 Research Interests
+
+* **Current:** 3D generation, controllable avatar creation, and text-guided material and appearance modeling
+* **Bridging direction:** simulation-ready 3D assets, physically based materials, and visual world modeling
+* **Long-term:** world models and embodied intelligence grounded in 3D environments
 
 ---
 
@@ -34,7 +42,7 @@ My current interests include expressive 3D avatar generation, semantic control, 
 
 * **First-author manuscript on text-guided PBR texture generation for 3D meshes**
   * *Submitted to ACM MM 2026*
-  * A method for generating physically based rendering (PBR) texture maps from a 3D mesh and text prompts.
+  * A method for generating physically based rendering (PBR) texture maps from a 3D mesh and text prompts, with an emphasis on simulation-ready 3D assets.
 
 ---
 
@@ -43,7 +51,7 @@ My current interests include expressive 3D avatar generation, semantic control, 
 * **Waseda University (早稲田大学)**, Tokyo, Japan
   * *M.Phil. in Information Architecture* (English-taught program)
   * 2025 - Mar. 2027 (expected)
-  * Research focus: Computer graphics, computer vision, and 3D generation
+  * Research focus: Computer graphics, computer vision, 3D generation, and related directions toward world models
   * **Current GPA: 3.8 / 4.0**
 
 * **Sun Yat-sen University (中山大学)**, Guangzhou, China
@@ -69,8 +77,9 @@ My current interests include expressive 3D avatar generation, semantic control, 
 ## 💻 Tech Stack
 
 * **Languages**: C++, Python, C#, GLSL/HLSL
-* **Graphics & Games**: Vulkan, OpenGL, Unity, Real-time Rendering (PBR)
+* **Graphics & Simulation**: Vulkan, OpenGL, Unity, Real-time Rendering (PBR)
 * **Research & AI**: PyTorch, 3D Gaussian Splatting, Diffusion Models, CLIP
+* **Emerging Interests**: World Models, Embodied AI, Simulation, Multimodal 3D Understanding
 
 ---
 
