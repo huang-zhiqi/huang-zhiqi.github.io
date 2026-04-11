@@ -15,7 +15,7 @@ My recent work focuses on expressive 3D avatars, text-guided material generation
 ## 🔥 News
 
 * **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
-* **[Apr. 2026]** One first-author manuscript on text-guided PBR texturing for 3D meshes is currently under review.
+* **[Apr. 2026]** A first-author manuscript on text-guided PBR texturing for 3D meshes is currently under review.
 * **[Apr. 2026]** I am seeking **Research Assistant (RA)** opportunities in graphics, vision, 3D generation, and world models.
 * **[2027 Intake]** I am also interested in **Ph.D. opportunities** in related areas.
 
@@ -50,8 +50,8 @@ My recent work focuses on expressive 3D avatars, text-guided material generation
 
 * **Waseda University (早稲田大学)**, Tokyo, Japan
   * *M.Phil. in Information Architecture* (English-taught program)
-  * 2025 - Mar. 2027 (expected)
-  * Research focus: computer graphics, computer vision, 3D generation, and world models
+  * Apr. 2025 - Mar. 2027 (expected)
+  * Research focus: computer graphics, computer vision, and 3D generation, with growing interest in world models
   * **Current GPA: 3.8 / 4.0**
 
 * **Sun Yat-sen University (中山大学)**, Guangzhou, China
