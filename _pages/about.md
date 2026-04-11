@@ -10,21 +10,21 @@ redirect_from:
 
 I am an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学), where I work on **3D generation** at the intersection of **computer graphics** and **computer vision**. Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles.
 
-My recent work focuses on expressive 3D avatars, text-guided material generation, and practical high-fidelity synthesis on consumer-grade hardware. I am increasingly interested in **world models** and, more broadly, **embodied intelligence**, especially where controllable 3D generation, simulation-ready assets, and physically grounded visual understanding meet. I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
+My recent work focuses on expressive 3D avatars, text-guided material generation, and high-fidelity synthesis on consumer-grade hardware. More broadly, I am interested in **world models** and **embodied intelligence** through controllable 3D generation, simulation-ready assets, and physically grounded visual understanding. I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
 ## 🔥 News
 
 * **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
-* **[2026]** I am actively seeking **Research Assistant (RA)** opportunities (remote or onsite) in graphics, vision, 3D generation, or world models.
-* **[2027 Intake]** I am also looking for **Ph.D. opportunities** in related areas.
+* **[Apr. 2026]** One first-author manuscript on text-guided PBR texturing for 3D meshes is currently under review.
+* **[Apr. 2026]** I am seeking **Research Assistant (RA)** opportunities in graphics, vision, 3D generation, and world models.
+* **[2027 Intake]** I am also interested in **Ph.D. opportunities** in related areas.
 
 ---
 
 ## 🔭 Research Interests
 
-* **Current:** 3D generation, controllable avatar creation, and text-guided material and appearance modeling
-* **Bridging direction:** simulation-ready 3D assets, physically based materials, and visual world modeling
-* **Long-term:** world models and embodied intelligence grounded in 3D environments
+* **Current:** 3D generation, controllable avatars, and text-guided materials
+* **Broader directions:** simulation-ready 3D assets, world models, and embodied intelligence in 3D environments
 
 ---
 
@@ -33,16 +33,16 @@ My recent work focuses on expressive 3D avatars, text-guided material generation
 * **SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss**
   * *IEEE ICASSP 2026 (Accepted)* - **First Author, Corresponding Author**
   * Authors: **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
-  * A framework for generating text-controllable 3D avatars from a single image through semantic embedding fusion and perceptual expression supervision, with strong expression fidelity and identity preservation on consumer-grade GPUs.
+  * A framework for generating text-controllable 3D avatars from a single image using semantic embedding fusion and perceptual expression supervision, with strong expression fidelity and identity preservation on consumer-grade GPUs.
   * **Links:** <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a> <a class="pub-link" href="https://arxiv.org/abs/2509.24004">Paper (arXiv:2509.24004)</a> <a class="pub-link" href="https://github.com/huang-zhiqi/SIE3D">Code (GitHub)</a>
 
 ---
 
 ## 📄 Manuscripts Under Review
 
-* **First-author manuscript on text-guided PBR texture generation for 3D meshes**
-  * *Submitted to ACM MM 2026*
-  * A method for generating physically based rendering (PBR) texture maps from a 3D mesh and text prompts, with an emphasis on simulation-ready 3D assets.
+* **First-author manuscript on text-guided PBR texturing for 3D meshes**
+  * *Currently under review*
+  * Text-guided PBR texture generation for 3D meshes aimed at simulation-ready assets.
 
 ---
 
@@ -51,7 +51,7 @@ My recent work focuses on expressive 3D avatars, text-guided material generation
 * **Waseda University (早稲田大学)**, Tokyo, Japan
   * *M.Phil. in Information Architecture* (English-taught program)
   * 2025 - Mar. 2027 (expected)
-  * Research focus: Computer graphics, computer vision, 3D generation, and related directions toward world models
+  * Research focus: computer graphics, computer vision, 3D generation, and world models
   * **Current GPA: 3.8 / 4.0**
 
 * **Sun Yat-sen University (中山大学)**, Guangzhou, China
@@ -61,25 +61,24 @@ My recent work focuses on expressive 3D avatars, text-guided material generation
 
 ---
 
-## 💼 Work Experience
+## 💼 Industry Experience
 
 * **4399 Games**, Guangzhou, China
   * **Senior Graphics Engineer**
     * *2023 - 2024*
-    * Led a rendering team of 3-5 engineers and owned the rendering roadmap for *"Era of Conquest"* across **mobile** and **PC** platforms.
+    * Led a rendering team of 3-5 engineers and owned the rendering roadmap for *"Era of Conquest"* on **mobile** and **PC**.
     * Drove graphics development for new projects including *"Catch & Build: Land of Pals"* across **mobile**, **PC**, and **web**.
   * **Graphics Engineer**
     * *2021 - 2023*
-    * Built and maintained the rendering pipeline for *"Era of Conquest"*, with a focus on **cross-platform** shader optimization, **physically based rendering**, and performance profiling.
+    * Built and optimized the real-time rendering pipeline for *"Era of Conquest"*, focusing on **cross-platform** shader optimization, **physically based rendering**, and performance profiling.
 
 ---
 
-## 💻 Tech Stack
+## 💻 Technical Skills
 
 * **Languages**: C++, Python, C#, GLSL/HLSL
-* **Graphics & Simulation**: Vulkan, OpenGL, Unity, Real-time Rendering (PBR)
-* **Research & AI**: PyTorch, 3D Gaussian Splatting, Diffusion Models, CLIP
-* **Emerging Interests**: World Models, Embodied AI, Simulation, Multimodal 3D Understanding
+* **Graphics & Engines**: Vulkan, OpenGL, Unity, Real-time Rendering (PBR)
+* **ML & 3D**: PyTorch, 3D Gaussian Splatting, Diffusion Models, CLIP
 
 ---
 
