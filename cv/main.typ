@@ -2,7 +2,7 @@
 
 #show: pesha.with(
   name: "Zhiqi Huang",
-  address: "Tokyo, Japan",
+  address: "Fukuoka, Japan",
   contacts: (
     [#link("mailto:huangzhq1747@gmail.com")[email]],
     [#link("https://huang-zhiqi.github.io")[homepage]],
@@ -23,7 +23,7 @@
   place: "Waseda University",
   title: "M.Phil. in Information Architecture",
   time: [Apr. 2025--Mar. 2027 (expected)],
-  location: "Tokyo, Japan",
+  location: "Fukuoka, Japan",
 )[
 - English-taught program
 - GPA: 3.8 / 4.0

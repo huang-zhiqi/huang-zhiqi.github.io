@@ -48,7 +48,7 @@ My recent work focuses on expressive 3D avatars, text-guided material generation
 
 ## 🎓 Education
 
-* **Waseda University (早稲田大学)**, Tokyo, Japan
+* **Waseda University (早稲田大学)**, Fukuoka, Japan
   * *M.Phil. in Information Architecture* (English-taught program)
   * Apr. 2025 - Mar. 2027 (expected)
   * Research focus: computer graphics, computer vision, and 3D generation, with growing interest in world models
