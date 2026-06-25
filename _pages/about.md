@@ -20,9 +20,9 @@ I am currently seeking **Research Assistant (RA)** opportunities and **2027 Ph.D
 
 * **[Jun. 2026]** I am seeking **Research Assistant (RA)** opportunities in geometry-aware generative modeling, 3D-aware video/world models, embodied simulation, and efficient 3D generation.
 * **[2027 Intake]** I am interested in **Ph.D. opportunities** in graphics, vision, generative AI, and world models for embodied interaction.
-* **[Apr. 2026]** A first-author manuscript on geometry-aware PBR material generation from long text is under review at **ACM MM 2026**.
 * **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on deform-then-edit 3D forecasting for longitudinal lung-nodule CT, learning bounded local deformation fields and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
 * **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on text-generated material reference conditions that map material prompts into MaterialMVP/Hunyuan3D-Paint reference features for geometry-aware PBR texture diffusion.
+* **[Apr. 2026]** A first-author manuscript on geometry-aware PBR material generation from long text is under review at **ACM MM 2026**.
 * **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
 
 ---
