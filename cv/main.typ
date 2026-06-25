@@ -51,30 +51,32 @@
 )[
 - Authors: Zhiqi Huang, Dulongkai Cui, Jinglu Hu
 - Fuses image identity embeddings with text semantic embeddings and a perceptual expression loss for expression-faithful, language-controllable 3DGS avatar generation.
-- Links: #link("https://huang-zhiqi.github.io/SIE3D/")[Project Page], #link("https://arxiv.org/abs/2509.24004")[Paper], #link("https://github.com/huang-zhiqi/SIE3D")[Code]
+- Links: #link("https://huang-zhiqi.github.io/SIE3D/")[Project Page], #link("https://arxiv.org/abs/2509.24004")[Paper (arXiv)], #link("https://github.com/huang-zhiqi/SIE3D")[Code]
 ]
 
 === Manuscripts
+#block(breakable: false)[
 #experience(
-  place: "First-author manuscript on geometry-aware PBR material generation from long text",
+  place: "Geometry-aware PBR material generation from long text",
   title: "First Author; ACM MM 2026 (Under Review)",
   time: [2026],
 )[
 - Generates relightable PBR maps from long text by grounding material semantics in local geometry with mesh-normal priors.
 - Evaluates semantic alignment, reconstruction quality, multi-view consistency, and consumer-grade GPU inference for simulation-ready 3D assets.
 ]
+]
 
 #experience(
-  place: "First-author manuscript on deform-then-edit lung-nodule CT forecasting",
-  title: "First Author; Target: AAAI 2027",
+  place: "Deform-then-edit lung-nodule CT forecasting",
+  title: "First Author; Manuscript in preparation; Target: AAAI 2027",
   time: [2026],
 )[
 - Studies deform-then-edit 3D forecasting for longitudinal CT, using bounded local deformation fields, mask/shell shape priors, and gated residual edits to predict future ROI appearance while preserving background anatomy.
 ]
 
 #experience(
-  place: "First-author manuscript on text-conditioned PBR material generation",
-  title: "First Author; Target: AAAI 2027",
+  place: "Text-conditioned PBR material generation",
+  title: "First Author; Manuscript in preparation; Target: AAAI 2027",
   time: [2026],
 )[
 - Maps material prompts into MaterialMVP/Hunyuan3D-Paint reference-condition features, replacing image-derived DINOv2 features with text-generated material conditions for geometry-aware PBR texture diffusion.
