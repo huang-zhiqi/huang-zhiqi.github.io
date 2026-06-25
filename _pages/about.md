@@ -12,7 +12,7 @@ I am an **M.Phil. student in Information Architecture** at **Waseda University**
 
 Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles. This industry experience shaped my interest in generative systems that are **controllable**, **efficient**, and compatible with practical graphics and simulation pipelines.
 
-My recent work includes **SIE3D**, a framework for generating text-controllable 3D avatars from a single image, and a first-author manuscript on geometry-aware PBR material generation from long text, currently under review at **ACM MM 2026**. I am also preparing two **AAAI 2027** manuscripts: **TransitionNet**, which studies deform-then-edit 3D forecasting for longitudinal lung-nodule CT using bounded local deformation fields and gated residual edits; and **Causal Material Reference Tokens (CMRT)**, which replaces image-derived MaterialMVP/Hunyuan3D-Paint reference features with prompt-generated material tokens for text-conditioned PBR texture diffusion. Going forward, I am interested in extending controllable 3D generation from static assets to **dynamic world models for embodied interaction**, including robot manipulation, AR/VR, interactive simulation, and game-scale virtual worlds.
+My recent work includes **SIE3D**, a framework for generating text-controllable 3D avatars from a single image, and a first-author manuscript on geometry-aware PBR material generation from long text, currently under review at **ACM MM 2026**. I am also preparing two **first-author AAAI 2027** manuscripts: one on deform-then-edit 3D forecasting for longitudinal lung-nodule CT using bounded local deformation fields and gated residual edits; and one on text-generated material reference conditions that replace image-derived MaterialMVP/Hunyuan3D-Paint features for prompt-controlled PBR texture diffusion. Going forward, I am interested in extending controllable 3D generation from static assets to **dynamic world models for embodied interaction**, including robot manipulation, AR/VR, interactive simulation, and game-scale virtual worlds.
 
 I am currently seeking **Research Assistant (RA)** opportunities and **2027 Ph.D. opportunities** in graphics, vision, generative AI, and embodied/world-model research. I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
@@ -20,9 +20,9 @@ I am currently seeking **Research Assistant (RA)** opportunities and **2027 Ph.D
 
 * **[Jun. 2026]** I am seeking **Research Assistant (RA)** opportunities in geometry-aware generative modeling, 3D-aware video/world models, embodied simulation, and efficient 3D generation.
 * **[2027 Intake]** I am interested in **Ph.D. opportunities** in graphics, vision, generative AI, and world models for embodied interaction.
-* **[Jun. 2026]** A first-author manuscript on geometry-aware PBR material generation from long text is under review at **ACM MM 2026**.
-* **[Jun. 2026]** I am preparing an **AAAI 2027** manuscript on **TransitionNet**, a deform-then-edit 3D forecasting model for longitudinal lung-nodule CT that learns bounded local deformation fields and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
-* **[Jun. 2026]** I am preparing an **AAAI 2027** manuscript on **Causal Material Reference Tokens (CMRT)**, a text-to-reference-token approach that maps material prompts into MaterialMVP/Hunyuan3D-Paint reference conditions for geometry-aware PBR texture diffusion.
+* **[Apr. 2026]** A first-author manuscript on geometry-aware PBR material generation from long text is under review at **ACM MM 2026**.
+* **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on deform-then-edit 3D forecasting for longitudinal lung-nodule CT, learning bounded local deformation fields and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
+* **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on text-generated material reference conditions that map material prompts into MaterialMVP/Hunyuan3D-Paint reference features for geometry-aware PBR texture diffusion.
 * **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
 
 ---
@@ -69,13 +69,15 @@ Current and future interests include:
 
 ## 📄 Manuscripts in Preparation
 
-* **Manuscript in preparation on deform-then-edit longitudinal CT forecasting**
+* **First-author manuscript on deform-then-edit longitudinal CT forecasting**
   * *Target: AAAI 2027*
-  * **TransitionNet** studies deform-then-edit 3D forecasting for longitudinal lung-nodule CT, learning bounded local deformation fields, mask/shell shape priors, and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
+  * **Role:** First Author
+  * This work studies deform-then-edit 3D forecasting for longitudinal lung-nodule CT, learning bounded local deformation fields, mask/shell shape priors, and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
 
-* **Causal Material Reference Tokens for text-conditioned PBR material generation**
+* **First-author manuscript on text-conditioned PBR material generation with prompt-derived reference conditions**
   * *Target: AAAI 2027*
-  * **CMRT** maps material prompts directly into MaterialMVP/Hunyuan3D-Paint reference-condition tokens, replacing image-derived DINOv2 reference features with text-generated material tokens for geometry-aware PBR texture diffusion.
+  * **Role:** First Author
+  * This work maps material prompts directly into MaterialMVP/Hunyuan3D-Paint reference-condition features, replacing image-derived DINOv2 reference features with text-generated material conditions for geometry-aware PBR texture diffusion.
 
 ---
 
