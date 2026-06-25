@@ -14,13 +14,13 @@
 )
 
 === Research Profile
-- M.Phil. student working on geometry-aware generative modeling for interactive and embodied systems, using 3D geometry, PBR materials, and 3D Gaussian Splatting as structural intermediate representations for spatially consistent generation.
-- Seeking RA and 2027 Ph.D. opportunities on 3D-aware video/world models, embodied simulation, controllable digital humans, and efficient multimodal 3D generation.
+- M.Phil. student at Waseda University working on geometry-aware generative modeling across 3D assets, PBR materials, 3D Gaussian Splatting, and 3D-aware video/world models.
+- Seeking RA and 2027 Ph.D. opportunities in graphics, vision, generative AI, embodied simulation, controllable digital humans, and efficient multimodal 3D generation.
 
 === Research Interests
-- Geometry-aware generative modeling: geometry, depth, normal, material, and multi-view priors for 3D, video, and world models
-- 3D-aware video/world models for embodied interaction, robot manipulation, AR/VR, and interactive simulation
-- Simulation-ready assets and digital humans: relightable PBR materials, 3DGS avatars, controllable 3D objects, and consumer-GPU generation
+- Geometry-aware generative modeling with depth, normal, material, and multi-view priors for 3D, video, and world models.
+- 3D-aware video/world models for embodied interaction, robot manipulation, AR/VR, and interactive simulation.
+- Simulation-ready assets and digital humans: relightable PBR materials, 3DGS avatars, controllable objects, and consumer-GPU generation.
 
 === Education
 #experience(
@@ -46,32 +46,40 @@
 === Publications
 #experience(
   place: "SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss",
-  title: "IEEE ICASSP 2026 (Accepted)",
+  title: "IEEE ICASSP 2026 (Accepted); First Author, Corresponding Author",
   time: [2026],
 )[
-- First Author, Corresponding Author
 - Authors: Zhiqi Huang, Dulongkai Cui, Jinglu Hu
-- Introduced a multimodal conditioning scheme that fuses image identity embeddings with text semantic embeddings, plus a perceptual expression loss for expression-faithful 3DGS avatar generation.
-- Targets controllable digital humans for games, VR, and interactive systems, while maintaining identity preservation and consumer-GPU practicality.
-- Links: #link("https://huang-zhiqi.github.io/SIE3D/")[Project Page], #link("https://arxiv.org/abs/2509.24004")[Paper (arXiv:2509.24004)], #link("https://github.com/huang-zhiqi/SIE3D")[Code]
+- Fuses image identity embeddings with text semantic embeddings and a perceptual expression loss for expression-faithful, language-controllable 3DGS avatar generation.
+- Links: #link("https://huang-zhiqi.github.io/SIE3D/")[Project Page], #link("https://arxiv.org/abs/2509.24004")[Paper], #link("https://github.com/huang-zhiqi/SIE3D")[Code]
 ]
 
-=== Manuscripts Under Review
+=== Manuscripts
 #experience(
   place: "First-author manuscript on geometry-aware PBR material generation from long text",
-  title: "Currently under review",
+  title: "First Author; ACM MM 2026 (Under Review)",
   time: [2026],
 )[
-- First Author
-- Uses long-text conditioning and geometry-gated attention with mesh-normal priors to ground material semantics on 3D surfaces.
-- Generates relightable PBR maps for simulation-ready 3D assets and evaluates semantic alignment, reconstruction quality, and multi-view consistency.
-- Designed around efficient, parameter-efficient adaptation and consumer-grade GPU inference.
+- Generates relightable PBR maps from long text by grounding material semantics in local geometry with mesh-normal priors.
+- Evaluates semantic alignment, reconstruction quality, multi-view consistency, and consumer-grade GPU inference for simulation-ready 3D assets.
 ]
 
-// For private outreach after review is resolved, you can replace the entry
-// above with the real paper title, venue, and full author list.
+#experience(
+  place: "First-author manuscript on deform-then-edit lung-nodule CT forecasting",
+  title: "First Author; Target: AAAI 2027",
+  time: [2026],
+)[
+- Studies deform-then-edit 3D forecasting for longitudinal CT, using bounded local deformation fields, mask/shell shape priors, and gated residual edits to predict future ROI appearance while preserving background anatomy.
+]
 
-#block(breakable: false)[
+#experience(
+  place: "First-author manuscript on text-conditioned PBR material generation",
+  title: "First Author; Target: AAAI 2027",
+  time: [2026],
+)[
+- Maps material prompts into MaterialMVP/Hunyuan3D-Paint reference-condition features, replacing image-derived DINOv2 features with text-generated material conditions for geometry-aware PBR texture diffusion.
+]
+
 === Industry Experience
 #experience(
   place: "4399 Games",
@@ -80,8 +88,7 @@
   location: "Guangzhou, China",
 )[
 - Led a 3--5 person rendering team and owned the rendering roadmap for _Era of Conquest_ on mobile and PC.
-- Drove graphics development for new projects including _Catch & Build: Land of Pals_ across mobile, PC, and web.
-- Built practical graphics workflows for shipped interactive games, shaping interest in controllable and efficient generative systems for games and simulation.
+- Drove graphics development for new mobile, PC, and web projects, connecting production rendering workflows with practical generative systems for games and simulation.
 ]
 
 #experience(
@@ -92,22 +99,12 @@
 )[
 - Built and optimized the real-time rendering pipeline for _Era of Conquest_, focusing on cross-platform shader optimization, PBR, and performance profiling.
 ]
-]
 
 === Technical Skills
-- Languages: C++, Python, C\#, GLSL/HLSL
-- Graphics & Engines: Vulkan, OpenGL, Unity, real-time rendering, physically based rendering (PBR)
-- ML & 3D: PyTorch, 3D Gaussian Splatting, diffusion models, CLIP/LongCLIP, mesh processing, PBR material generation
-- Research Practices: parameter-efficient fine-tuning, geometry-aware conditioning, multi-view rendering/evaluation, simulation-ready asset pipelines
+- Programming & graphics: C++, Python, C\#, GLSL/HLSL; Vulkan, OpenGL, Unity, real-time rendering, physically based rendering (PBR).
+- ML & 3D research: PyTorch, 3D Gaussian Splatting, diffusion models, CLIP/LongCLIP, mesh processing, PBR material generation, parameter-efficient fine-tuning, multi-view evaluation.
 
-=== Languages
+=== Languages & Honors
 - Chinese: Native (Mandarin and Cantonese)
-- English: Professional working proficiency (TOEFL iBT: 90; English-taught master's program)
-
-=== Honors and Awards
-#experience(
-  place: "Outstanding Student Scholarship (Third Prize)",
-  title: "Sun Yat-sen University",
-  time: [2018--2019],
-)[
-]
+- English: Professional working proficiency (TOEFL iBT: 90)
+- Outstanding Student Scholarship (Third Prize), Sun Yat-sen University, 2018--2019
