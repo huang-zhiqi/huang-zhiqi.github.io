@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学), where I work on **geometry-aware generative modeling** at the intersection of **computer graphics**, **computer vision**, and **generative AI**. My research studies how **3D representations**—including meshes, PBR materials, 3D Gaussian Splatting, and geometry/depth/normal priors—can serve not only as final assets, but also as structural intermediate representations for **3D-aware video/world models**, **simulation-ready environments**, and **controllable digital humans**.
+I am an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学), where I work on **geometry-aware generative modeling** at the intersection of **computer graphics**, **computer vision**, and **generative AI**. My research centers on **3D understanding**: how 3D representations—including meshes, PBR materials, 3D Gaussian Splatting, volumetric data, and geometry/depth/normal priors—can ground generative models for **controllable digital humans**, **simulation-ready assets**, and **3D-aware video/world models**.
 
 Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles. This industry experience shaped my interest in generative systems that are **controllable**, **efficient**, and compatible with practical graphics and simulation pipelines.
 
-My recent work includes **SIE3D**, a framework for generating text-controllable 3D avatars from a single image, and a first-author manuscript on geometry-aware PBR material generation from long text, currently under review at **ACM MM 2026**. I am also preparing two **first-author AAAI 2027** manuscripts: one on deform-then-edit 3D forecasting for longitudinal lung-nodule CT using bounded local deformation fields and gated residual edits; and one on text-generated material reference conditions that replace image-derived MaterialMVP/Hunyuan3D-Paint features for prompt-controlled PBR texture diffusion. Going forward, I am interested in extending controllable 3D generation from static assets to **dynamic world models for embodied interaction**, including robot manipulation, AR/VR, interactive simulation, and game-scale virtual worlds.
+My recent work follows this direction across several settings. **SIE3D** studies how 3D priors support text-controllable avatar generation from a single image. A first-author manuscript on geometry-aware PBR material generation from long text, currently under review at **ACM MM 2026**, studies how geometry can align 3D assets with text and image semantics. I am also preparing two **first-author AAAI 2027** manuscripts: one treating longitudinal lung-nodule CT forecasting as a 3D problem, and one fusing text-driven and image-conditioned PBR texture generation. Going forward, I am interested in extending this 3D-understanding view from static assets to **dynamic world models for embodied interaction**, including robot manipulation, AR/VR, interactive simulation, and game-scale virtual worlds.
 
 I am currently seeking **Research Assistant (RA)** opportunities and **2027 Ph.D. opportunities** in graphics, vision, generative AI, and embodied/world-model research. I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
@@ -29,7 +29,7 @@ I am currently seeking **Research Assistant (RA)** opportunities and **2027 Ph.D
 
 ## 🔭 Research Direction
 
-I view 3D not only as an output modality, but also as a useful **interface for grounding generative models in space, material, lighting, and action**. My long-term goal is to build generative systems that connect text, images, videos, and embodied agents through controllable 3D representations. I am especially interested in methods that improve **spatial consistency**, **physical plausibility**, **editability**, and **downstream usability** without relying on extremely large-scale training from scratch.
+I view 3D not only as an output modality, but also as a useful **interface for grounding generative models in space, material, lighting, and action**. My long-term goal is to build generative systems that connect text, images, videos, and embodied agents through controllable 3D representations. This includes video generation, world models, and embodied intelligence, where spatial consistency depends on understanding 3D priors rather than only generating plausible 2D frames.
 
 Current and future interests include:
 
@@ -54,7 +54,7 @@ Current and future interests include:
 * **SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss**
   * *IEEE ICASSP 2026 (Accepted)* - **First Author, Corresponding Author**
   * Authors: **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
-  * A framework for generating text-controllable 3D avatars from a single image using semantic embedding fusion and perceptual expression supervision. This work connects identity-preserving 3D generation with natural-language control, targeting controllable digital humans for games, VR, and interactive systems on consumer-grade GPUs.
+  * A framework for generating text-controllable 3D avatars from a single image by combining 3D human priors with multimodal control. This work connects identity-preserving 3D generation with natural-language control, targeting controllable digital humans for games, VR, and interactive systems on consumer-grade GPUs.
   * **Links:** <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a> <a class="pub-link" href="https://arxiv.org/abs/2509.24004">Paper (arXiv:2509.24004)</a> <a class="pub-link" href="https://github.com/huang-zhiqi/SIE3D">Code (GitHub)</a>
 
 ---
@@ -63,7 +63,7 @@ Current and future interests include:
 
 * **First-author manuscript on geometry-aware PBR material generation from long text**
   * *ACM MM 2026 (Under Review)*
-  * A method for generating relightable PBR materials for 3D meshes from long-form descriptions by grounding material semantics in local geometry. The work targets simulation-ready assets with stronger semantic alignment, multi-view consistency, physical plausibility, and efficient inference on consumer-grade GPUs.
+  * A method for generating relightable PBR materials for 3D meshes from long-form descriptions, emphasizing how geometry priors help align material semantics with 3D assets. The work targets simulation-ready assets with stronger semantic alignment, multi-view consistency, physical plausibility, and efficient inference on consumer-grade GPUs.
 
 ---
 
@@ -72,12 +72,12 @@ Current and future interests include:
 * **First-author manuscript on deform-then-edit longitudinal CT forecasting**
   * *Target: AAAI 2027*
   * **Role:** First Author
-  * This work studies deform-then-edit 3D forecasting for longitudinal lung-nodule CT, learning bounded local deformation fields, mask/shell shape priors, and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
+  * This work treats longitudinal lung-nodule CT forecasting as a 3D understanding problem, using deform-then-edit 3D forecasting to predict future ROI appearance while preserving background anatomy.
 
 * **First-author manuscript on text-conditioned PBR material generation with prompt-derived reference conditions**
   * *Target: AAAI 2027*
   * **Role:** First Author
-  * This work maps material prompts directly into MaterialMVP/Hunyuan3D-Paint reference-condition features, replacing image-derived DINOv2 reference features with text-generated material conditions for geometry-aware PBR texture diffusion.
+  * This work studies how to fuse text-driven and image-conditioned PBR texture generation, using prompt-derived material conditions for geometry-aware PBR texture diffusion.
 
 ---
 
