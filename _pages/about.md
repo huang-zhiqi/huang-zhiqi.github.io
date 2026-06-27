@@ -12,7 +12,7 @@ I am an **M.Phil. student in Information Architecture** at **Waseda University**
 
 Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles. This industry experience shaped how I think about 3D in practical systems: how assets, materials, and scenes are represented in game or simulation-like environments, and how 3D pipelines must be optimized for constrained mobile hardware.
 
-My recent work follows this direction across several settings. **SIE3D** studies how 3D priors support text-controllable avatar generation from a single image. A first-author manuscript on geometry-aware PBR material generation from long text, currently under review at **ACM MM 2026**, studies how geometry can align 3D assets with text and image semantics. I am also preparing two **first-author AAAI 2027** manuscripts: one treating longitudinal lung-nodule CT forecasting as a 3D problem, and one fusing text-driven and image-conditioned PBR texture generation. Going forward, I am interested in extending this 3D-understanding view from static assets to **dynamic world models for embodied interaction**, including robot manipulation, AR/VR, interactive simulation, and game-scale virtual worlds.
+My recent work follows this direction across several settings. **SIE3D** studies how 3D priors support text-controllable avatar generation from a single image. A first-author manuscript on geometry-aware PBR material generation from long text, currently under review at **ACM MM 2026**, studies how geometry can align 3D assets with text and image semantics. I am also preparing two **first-author AAAI 2027** manuscripts: one treating longitudinal lung-nodule CT forecasting as a 3D problem, and one on text-conditioned PBR texture generation that converts material prompts into internal reference conditions for geometry-aware diffusion. Going forward, I am interested in extending this 3D-understanding view from static assets to **dynamic world models for embodied interaction**, including robot manipulation, AR/VR, interactive simulation, and game-scale virtual worlds.
 
 I am currently seeking **Research Assistant (RA)** opportunities and **2027 Ph.D. opportunities** in graphics, vision, generative AI, and embodied/world-model research. I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
@@ -21,7 +21,7 @@ I am currently seeking **Research Assistant (RA)** opportunities and **2027 Ph.D
 * **[Jun. 2026]** I am seeking **Research Assistant (RA)** opportunities in geometry-aware generative modeling, 3D-aware video/world models, embodied simulation, and efficient 3D generation.
 * **[2027 Intake]** I am interested in **Ph.D. opportunities** in graphics, vision, generative AI, and world models for embodied interaction.
 * **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on deform-then-edit 3D forecasting for longitudinal lung-nodule CT, learning bounded local deformation fields and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
-* **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on text-generated material reference conditions that map material prompts into MaterialMVP/Hunyuan3D-Paint reference features for geometry-aware PBR texture diffusion.
+* **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on text-conditioned PBR texture generation, mapping material prompts into internal reference conditions for geometry-aware PBR diffusion.
 * **[Apr. 2026]** A first-author manuscript on geometry-aware PBR material generation from long text is under review at **ACM MM 2026**.
 * **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
 
@@ -74,10 +74,10 @@ Current and future interests include:
   * **Role:** First Author
   * This work treats longitudinal lung-nodule CT forecasting as a 3D understanding problem, using deform-then-edit 3D forecasting to predict future ROI appearance while preserving background anatomy.
 
-* **First-author manuscript on text-conditioned PBR material generation with prompt-derived reference conditions**
+* **First-author manuscript on text-conditioned PBR texture generation with prompt-derived reference conditions**
   * *Target: AAAI 2027*
   * **Role:** First Author
-  * This work studies how to fuse text-driven and image-conditioned PBR texture generation, using prompt-derived material conditions for geometry-aware PBR texture diffusion.
+  * This work studies a text-to-reference approach for geometry-aware PBR diffusion: instead of first generating a reference image from text, it maps material prompts directly into internal reference-condition tokens for the PBR generator. This connects language-level material descriptions with mesh geometry priors to generate coherent albedo, metallic, and roughness maps.
 
 ---
 
