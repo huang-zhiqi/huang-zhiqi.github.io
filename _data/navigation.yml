@@ -25,6 +25,9 @@ main:
     
   - title: "CV"
     url: /files/cv.pdf
+
+  - title: "Research Statement"
+    url: /files/Research%20Statement.pdf
     
   # - title: "Guide"
   #   url: /markdown/
