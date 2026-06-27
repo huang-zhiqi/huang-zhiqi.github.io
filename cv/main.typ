@@ -75,11 +75,11 @@
 ]
 
 #experience(
-  place: "Text-conditioned PBR material generation",
+  place: "Text-conditioned PBR texture generation with prompt-derived reference conditions",
   title: "First Author; Manuscript in preparation; Target: AAAI 2027",
   time: [2026],
 )[
-- Studies fusion of text-driven and image-conditioned PBR texture generation, using prompt-derived material conditions for geometry-aware PBR texture diffusion.
+- Studies a text-to-reference approach for geometry-aware PBR diffusion: maps material prompts directly into internal reference-condition tokens for the PBR generator, connecting language-level material descriptions with mesh geometry priors to generate coherent albedo, metallic, and roughness maps.
 ]
 
 === Industry Experience
