@@ -10,7 +10,7 @@ redirect_from:
 
 I am an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学), where I work on **geometry-aware generative modeling** at the intersection of **computer graphics**, **computer vision**, and **generative AI**. My research centers on **3D understanding**: how 3D representations—including meshes, PBR materials, 3D Gaussian Splatting, volumetric data, and geometry/depth/normal priors—can ground generative models for **controllable digital humans**, **simulation-ready assets**, and **3D-aware video/world models**.
 
-Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles. This industry experience shaped my interest in generative systems that are **controllable**, **efficient**, and compatible with practical graphics and simulation pipelines.
+Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles. This industry experience shaped how I think about 3D in practical systems: how assets, materials, and scenes are represented in game or simulation-like environments, and how 3D pipelines must be optimized for constrained mobile hardware.
 
 My recent work follows this direction across several settings. **SIE3D** studies how 3D priors support text-controllable avatar generation from a single image. A first-author manuscript on geometry-aware PBR material generation from long text, currently under review at **ACM MM 2026**, studies how geometry can align 3D assets with text and image semantics. I am also preparing two **first-author AAAI 2027** manuscripts: one treating longitudinal lung-nodule CT forecasting as a 3D problem, and one fusing text-driven and image-conditioned PBR texture generation. Going forward, I am interested in extending this 3D-understanding view from static assets to **dynamic world models for embodied interaction**, including robot manipulation, AR/VR, interactive simulation, and game-scale virtual worlds.
 
@@ -101,11 +101,11 @@ Current and future interests include:
 * **4399 Games**, Guangzhou, China
   * **Senior Graphics Engineer**
     * *2023 - 2024*
-    * Led a rendering team of 3-5 engineers and owned the rendering roadmap for *"Era of Conquest"* on **mobile** and **PC**.
-    * Drove graphics development for new projects including *"Catch & Build: Land of Pals"* across **mobile**, **PC**, and **web**.
+    * Led a rendering team of 3-5 engineers and owned the rendering roadmap for *"Era of Conquest"* on **mobile** and **PC**, balancing 3D scene representation, visual fidelity, and runtime performance.
+    * Drove graphics development for new projects including *"Catch & Build: Land of Pals"* across **mobile**, **PC**, and **web**, with attention to reusable 3D asset and rendering pipelines.
   * **Graphics Engineer**
     * *2021 - 2023*
-    * Built and optimized the real-time rendering pipeline for *"Era of Conquest"*, focusing on **cross-platform** shader optimization, **physically based rendering**, and performance profiling.
+    * Built and optimized the real-time rendering pipeline for *"Era of Conquest"*, focusing on **cross-platform** shader optimization, **physically based rendering**, 3D material representation, and performance profiling on mobile devices.
 
 ---
 
