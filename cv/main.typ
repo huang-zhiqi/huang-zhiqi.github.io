@@ -24,7 +24,7 @@
 
 === Education
 #experience(
-  place: "Waseda University",
+  place: "Waseda University (早稲田大学)",
   title: "M.Phil. in Information Architecture",
   time: [Apr. 2025--Mar. 2027 (expected)],
   location: "Fukuoka, Japan",
@@ -35,7 +35,7 @@
 ]
 
 #experience(
-  place: "Sun Yat-sen University",
+  place: "Sun Yat-sen University (中山大学)",
   title: "B.E. in Software Engineering",
   time: [2017--2021],
   location: "Guangzhou, China",
