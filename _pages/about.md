@@ -8,17 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a **Research Assistant (RA)** at **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学). My work focuses on **geometry-aware generative modeling** at the intersection of **computer graphics**, **computer vision**, and **generative AI**. My research centers on **3D understanding**: how 3D representations—including meshes, PBR materials, 3D Gaussian Splatting, volumetric data, and geometry/depth/normal priors—can ground generative models for **controllable digital humans**, **simulation-ready assets**, and **3D-aware video/world models**.
+I am currently a **Research Assistant (RA)** at **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学). My current research direction is **embodied intelligence**, with a focus on **sim-to-real transfer**. Building on my background in **computer graphics**, **computer vision**, and **generative AI**, I study how 3D representations—including meshes, PBR materials, 3D Gaussian Splatting, volumetric data, and geometry/depth/normal priors—can support transferable perception, world modeling, and interaction from simulation to real-world environments.
 
 Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles. This industry experience shaped how I think about 3D in practical systems: how assets, materials, and scenes are represented in game or simulation-like environments, and how 3D pipelines must be optimized for constrained mobile hardware.
 
-My recent work follows this direction across several settings. **SIE3D** studies how 3D priors support text-controllable avatar generation from a single image. A first-author manuscript on geometry-aware PBR material generation from long text, currently under review at **AAAI 2027**, studies how geometry can align 3D assets with text and image semantics. I am also preparing a **first-author AAAI 2027** manuscript that treats longitudinal lung-nodule CT forecasting as a 3D problem. Going forward, I am interested in extending this 3D-understanding view from static assets to **dynamic world models for embodied interaction**, including robot manipulation, AR/VR, interactive simulation, and game-scale virtual worlds.
+My previous research provides complementary foundations for this direction. **SIE3D** gave me experience with controllable 3D representations and multimodal grounding. My **AAAI 2027** submission on geometry-aware PBR material generation develops relightable, simulation-ready assets and studies appearance consistency across geometry, views, and lighting. My ongoing longitudinal CT forecasting project studies structured 3D change while preserving surrounding context. Together with my industry experience in real-time rendering and systems optimization, these projects provide a foundation in spatial representation, realistic simulation content, predictive modeling, and efficient deployment that I now aim to bring to embodied sim-to-real research.
 
 I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
 ## 🔥 News
 
-* **[Jul. 2026]** I am now a **Research Assistant (RA)** at **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)**.
+* **[Jul. 2026]** I am now a **Research Assistant (RA)** at **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)**, where my current research direction focuses on **embodied intelligence** and **sim-to-real transfer**.
 * **[Jul. 2026]** A first-author manuscript on geometry-aware PBR material generation from long text is under review at **AAAI 2027**.
 * **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on deform-then-edit 3D forecasting for longitudinal lung-nodule CT, learning bounded local deformation fields and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
 * **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
@@ -27,23 +27,23 @@ I received my B.E. in Software Engineering from **Sun Yat-sen University** (中�
 
 ## 🔭 Research Direction
 
-I view 3D not only as an output modality, but also as a useful **interface for grounding generative models in space, material, lighting, and action**. My long-term goal is to build generative systems that connect text, images, videos, and embodied agents through controllable 3D representations. This includes video generation, world models, and embodied intelligence, where spatial consistency depends on understanding 3D priors rather than only generating plausible 2D frames.
+My current RA work and intended future Ph.D. research center on **embodied intelligence**, particularly **sim-to-real transfer**. I am interested in narrowing the reality gap between simulated and physical environments across appearance, geometry, dynamics, sensing, and interaction. My goal is to build 3D-aware models and simulation systems that generate useful training experience, learn transferable representations, and support robust perception and action in the real world.
 
 Current and future interests include:
 
-* **Geometry-aware generative modeling:** injecting geometry, depth, normal, material, and multi-view priors into 3D, video, and world models.
-* **3D-aware video/world models:** generating spatially consistent future visual states for embodied interaction, robot manipulation, and interactive simulation.
-* **Simulation-ready assets and digital twins:** creating relightable PBR materials, controllable 3D objects, and scene assets for games, AR/VR, and robotic simulation.
-* **Controllable digital humans and avatars:** identity-preserving, language-controllable 3D Gaussian avatars for gaming, VR, and interactive agents.
-* **Efficient generative systems:** parameter-efficient adaptation, consumer-grade GPU inference, and practical evaluation protocols for multimodal 3D generation.
+* **Sim-to-real transfer for embodied agents:** improving generalization across visual, geometric, dynamic, sensor, and interaction differences between simulation and the real world.
+* **3D-aware world models and predictive simulation:** learning spatially consistent scene representations and future states for robot manipulation, embodied planning, and closed-loop interaction.
+* **Simulation-ready assets and digital twins:** creating relightable PBR assets, controllable 3D scenes, and structured environment variations for scalable training and evaluation.
+* **Geometry-aware perception and representation learning:** using depth, normals, materials, and multi-view cues to learn representations that remain stable under domain shifts.
+* **Efficient adaptation and deployment:** developing parameter-efficient adaptation, real-time inference, and practical evaluation across simulated and physical platforms.
 
 ---
 
 ## 🎯 Application Scenarios
 
-* **Embodied simulation and robot manipulation:** using geometry-aware generation to produce spatially consistent objects, scenes, and future visual rollouts for policy learning, evaluation, and debugging.
-* **Interactive games and AR/VR:** generating controllable avatars, relightable PBR assets, and editable virtual environments from multimodal instructions.
-* **3D-aware video and world modeling:** using 3D structure as an intermediate layer to make image/video generation more consistent across views, time, lighting, and user interaction.
+* **Robot manipulation and embodied interaction:** training and evaluating agents in diverse simulated environments, then transferring robust perception and behavior to physical systems.
+* **Digital twins and simulation data engines:** generating controllable, physically meaningful objects, materials, scenes, and domain variations for scalable learning and evaluation.
+* **3D-aware world models:** predicting spatially consistent future states to support embodied planning, interaction, and adaptation under real-world uncertainty.
 
 ---
 
@@ -79,7 +79,7 @@ Current and future interests include:
 * **Waseda University (早稲田大学)**, Fukuoka, Japan
   * *M.Phil. in Information Architecture* (English-taught program)
   * Apr. 2025 - Mar. 2027 (expected)
-  * Research focus: geometry-aware generative modeling, 3D generation, and world models for embodied interaction
+  * Research focus: 3D understanding, geometry-aware generative modeling, and sim-to-real embodied intelligence
   * **Current GPA: 3.8 / 4.0**
 
 * **Sun Yat-sen University (中山大学)**, Guangzhou, China
