@@ -3,117 +3,111 @@ permalink: /
 title: "Zhiqi Huang"
 excerpt: "Zhiqi Huang"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am currently a **Research Assistant (RA)** at **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学). My research now centers on **sim-to-real embodied intelligence**: how 3D scene representations, geometry and material priors, and predictive world models can help embodied agents transfer perception and interaction from simulation to physical environments.
+I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. My current direction is **sim-to-real embodied intelligence**, with a particular interest in task-relevant 3D simulation: how controllable scene representations, materials, and state models can make simulated experience more useful in the physical world.
 
-Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles. This experience in real-time rendering, PBR materials, reusable asset pipelines, and performance optimization now provides a systems foundation for scalable embodied simulation and deployment.
+Across industry and research, I have returned to one question: **how can a 3D world preserve what matters while changing what a task requires?** At **4399 Games**, I built cross-platform real-time rendering systems, PBR pipelines, and production tools for shipped mobile and PC titles. In graduate research, I have studied the same design principle in three settings: preserving identity while controlling expression in 3D avatars, preserving geometry while generating relightable materials, and preserving stable anatomy while forecasting localized change in longitudinal CT.
 
-My previous research contributes distinct pieces to this agenda. **SIE3D** developed my experience in controllable 3D representations and multimodal grounding. My geometry-aware PBR submission studies relightable materials, multi-view consistency, and efficient generation for realistic simulation assets. My longitudinal CT forecasting submission studies structured 3D state changes while preserving surrounding context, providing experience in predictive 3D modeling. Together with my graphics-engineering background, these projects form a practical foundation for sim-to-real research across representation, simulation content, prediction, and efficient systems.
+These projects were conducted in graphics and medical imaging rather than robot learning. They gave me a concrete foundation in controllable 3D representation, simulation content, structured prediction, and efficient systems. I am now extending that foundation toward **task-aware real-to-sim environments, sim-real co-training, and transfer evaluated by downstream behavior rather than visual similarity alone**.
 
-I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
+## News
 
-## 🔥 News
-
-* **[Jul. 2026]** I am now a **Research Assistant (RA)** at **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)**, focusing on **sim-to-real embodied intelligence**.
-* **[Jul. 2026]** Two first-author manuscripts are under review at **AAAI 2027**: geometry-aware PBR material generation for simulation-ready 3D assets, and deform-then-edit longitudinal CT forecasting for structured 3D state prediction.
-* **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
+* **[Jul. 2026]** Joined **CUHK-Shenzhen** as a Research Assistant, moving my research toward **sim-to-real embodied intelligence**.
+* **[Jul. 2026]** Two first-author manuscripts are under review at **AAAI 2027**, on controllable PBR material generation and structured longitudinal 3D forecasting.
+* **[Jan. 2026]** My first-author and corresponding-author paper **SIE3D** was accepted to **IEEE ICASSP 2026**.
 
 ---
 
-## 🔭 Research Direction
+## Research Story
 
-My current RA work and intended future Ph.D. research focus on **sim-to-real embodied intelligence**: enabling agents to transfer perception, prediction, and behavior learned in simulation to physical environments. I am particularly interested in using 3D structure and controllable simulation to reduce gaps in appearance, geometry, sensing, dynamics, and interaction.
+* **Production graphics - building usable virtual worlds.** Three years in game development taught me that a 3D system must balance visual fidelity, controllability, runtime efficiency, and integration with an asset pipeline.
+* **Controllable 3D humans - preserving identity under semantic edits.** SIE3D combines a single identity image with language-level expression and accessory control in an editable 3D Gaussian representation.
+* **Structured appearance and change - editing only what should change.** My PBR work generates relightable material channels conditioned on language and surface geometry. My CT work models localized future change while explicitly preserving stable surrounding anatomy.
+* **Embodied Sim2Real - transferring task-relevant structure.** My current step is to connect these ideas with embodied learning: reconstructing or generating useful simulation environments, varying the factors that matter to a task, and combining simulated experience with limited real data.
 
-Current and future interests include:
-
-* **Transferable 3D perception:** learning geometry-aware representations that remain robust across simulated and real sensors, scenes, and visual conditions.
-* **3D simulation and world models:** building controllable digital twins and predictive models for robot manipulation, planning, and closed-loop interaction.
-* **Efficient sim-to-real adaptation:** adapting and evaluating models with limited real-world data under real-time system constraints.
-
----
-
-## 🎯 Application Scenarios
-
-* **Robot manipulation and embodied interaction:** using diverse simulated scenes and predictive 3D models to train and evaluate perception and interaction before adapting them to physical environments.
-* **Embodied simulation and digital twins:** generating controllable objects, PBR materials, scene variations, and sensor conditions for scalable data generation, evaluation, and failure analysis.
+The connection is methodological: each project asks what structure must remain invariant, what variation should be controllable, and how the result can be evaluated for its intended use.
 
 ---
 
-## 📝 Publications
+## Current Research Direction
 
-* **SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss**
-  * *IEEE ICASSP 2026 (Accepted)* - **First Author, Corresponding Author**
-  * Authors: **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
-  * A framework for generating text-controllable 3D avatars from a single image by combining 3D human priors with multimodal control. This work builds experience in controllable 3D representations, multimodal grounding, and efficient inference—capabilities that now support my transition toward 3D-aware embodied models and sim-to-real research.
-  * **Links:** <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a> <a class="pub-link" href="https://arxiv.org/abs/2509.24004">Paper (arXiv:2509.24004)</a> <a class="pub-link" href="https://github.com/huang-zhiqi/SIE3D">Code (GitHub)</a>
+I am interested in Sim2Real as a **task-dependent transfer problem**, not only a pursuit of photorealism. A useful simulator need not reproduce every detail of reality; it should model the geometry, appearance, sensing, dynamics, and interaction factors that affect the target behavior.
 
----
+My current and longer-term interests are:
 
-## 📄 Manuscripts Under Review
-
-* **First-author manuscript on geometry-aware PBR material generation from long text**
-  * *AAAI 2027 (Under Review)*
-  * A method for generating relightable PBR materials for 3D meshes from long-form descriptions. Its emphasis on physical appearance, lighting variation, multi-view consistency, and efficient generation supports realistic, controllable simulation assets and addresses part of the visual sim-to-real gap.
-
-* **First-author manuscript on deform-then-edit longitudinal CT forecasting**
-  * *AAAI 2027 (Under Review)*
-  * **Role:** First Author
-  * This work uses deform-then-edit forecasting to model structured 3D state changes while preserving surrounding anatomy. Although developed for medical imaging, it provides experience in predictive 3D modeling, localized state transitions, and context preservation that transfers to my interest in world models for embodied systems.
+* **Task-aware real-to-sim and simulation content:** constructing digital twins or digital cousins with controllable geometry, PBR appearance, cameras, lighting, and sensor conditions, then validating them through downstream tasks.
+* **Sim-real learning and adaptation:** co-training with diverse simulation and limited real demonstrations, identifying harmful domain gaps, and using randomization or adaptation where it improves physical transfer.
+* **Structured models of interaction:** extending my experience in localized 3D forecasting toward action-conditioned state transitions and uncertainty in contact-rich environments. This longer-term step will require explicit actions, physical interaction data, and closed-loop validation.
 
 ---
 
-## 📄 Manuscripts in Preparation
+## Publications
+
+### SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss
+
+**IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
+**Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
+
+SIE3D generates an editable 3D Gaussian head avatar from one image while allowing natural-language control over expression and accessories. It combines identity, text semantics, and an explicit perceptual expression objective to improve expression alignment while preserving the subject's identity. This work established my foundation in controllable multimodal 3D representation.
+
+<a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a>
+<a class="pub-link" href="https://doi.org/10.1109/ICASSP55912.2026.11462135">IEEE Xplore</a>
+<a class="pub-link" href="https://arxiv.org/abs/2509.24004">arXiv</a>
+<a class="pub-link" href="https://github.com/huang-zhiqi/SIE3D">Code</a>
+
+### Manuscripts Under Review
+
+* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* The work studies how to retain long material specifications, route them to geometry-relevant regions, and preserve variation across relightable PBR channels. Its Sim2Real connection is upstream: controllable surface appearance can improve simulation assets and visual-domain variation, while policy transfer also depends on physics, sensing, and task alignment.
+* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* The method transports persistent structure and restricts residual edits to regions expected to change. Developed for medical imaging, it contributes experience in structured 3D state transitions and strong persistence baselines. An embodied extension would require explicit actions and physical-interaction validation.
 
 ---
 
-## 🎓 Education
+## Experience
 
-* **Waseda University (早稲田大学)**, Fukuoka, Japan
-  * *M.Phil. in Information Architecture* (English-taught program)
-  * Apr. 2025 - Mar. 2027 (expected)
-  * Research focus: 3D understanding and geometry-aware generative modeling, with a current trajectory toward sim-to-real embodied intelligence
-  * **Current GPA: 3.8 / 4.0**
+### The Chinese University of Hong Kong, Shenzhen
 
-* **Sun Yat-sen University (中山大学)**, Guangzhou, China
-  * *B.E. in Software Engineering*
-  * 2017 - 2021
-  * **GPA: 3.7 / 4.0**
+**Research Assistant** - *Jul. 2026 - Present*
 
----
+* Current direction: task-relevant 3D simulation and sim-to-real embodied intelligence.
 
-## 💼 Industry Experience
+### 4399 Games
 
-* **4399 Games**, Guangzhou, China
-  * **Senior Graphics Engineer**
-    * *2023 - 2024*
-    * Led a rendering team of 3-5 engineers and owned the rendering roadmap for *"Era of Conquest"* on **mobile** and **PC**, building stable real-time 3D systems under visual-quality and deployment constraints.
-    * Drove graphics development for new mobile, PC, and web projects through reusable cross-platform asset, material, and rendering pipelines—experience relevant to scalable embodied-simulation infrastructure.
-  * **Graphics Engineer**
-    * *2021 - 2023*
-    * Built and optimized the real-time rendering pipeline for *"Era of Conquest"*, focusing on cross-platform shaders, PBR material representation, and mobile performance—foundations for efficient, visually controllable simulation environments.
+**Senior Graphics Engineer** - *2023 - 2024*
+
+* Led a rendering team of 3-5 engineers and owned the rendering roadmap for *Era of Conquest* on mobile and PC.
+* Drove graphics development for new mobile, PC, and web projects through reusable asset, material, and rendering pipelines.
+
+**Graphics Engineer** - *2021 - 2023*
+
+* Built and optimized the real-time rendering pipeline for *Era of Conquest*, including cross-platform shaders, PBR material representation, and mobile performance.
 
 ---
 
-## 💻 Technical Skills
+## Education
 
-* **Current Research Focus**: Sim-to-real embodied intelligence, transferable 3D perception, 3D-aware world models, robot manipulation, and digital twins
-* **3D Simulation & Rendering**: Unity, Vulkan, OpenGL, real-time rendering, PBR, mesh processing, multi-view rendering, and simulation-ready asset pipelines
-* **Machine Learning & 3D Representation**: PyTorch, 3D Gaussian Splatting, diffusion models, CLIP/LongCLIP, geometry/depth/normal priors, and volumetric modeling
-* **Programming & Systems**: C++, Python, C#, GLSL/HLSL, parameter-efficient adaptation, and GPU inference optimization
-
----
-
-## 🗣️ Languages
-
-* **Chinese**: Native (Mandarin & Cantonese)
-* **English**: Professional working proficiency (TOEFL iBT: 90; English-taught master's program)
+* **Waseda University**, Fukuoka, Japan
+  * M.Phil. in Information Architecture, Apr. 2025 - Mar. 2027 (expected)
+  * English-taught program; current GPA: **3.8 / 4.0**
+* **Sun Yat-sen University**, Guangzhou, China
+  * B.E. in Software Engineering, 2017 - 2021
+  * GPA: **3.7 / 4.0**
 
 ---
 
-## 🏆 Honors & Awards
+## Technical Background
 
-* **Outstanding Student Scholarship (Third Prize)**, Sun Yat-sen University, 2018-2019
+* **Graphics and systems:** C++, C#, GLSL/HLSL, Unity, Vulkan, OpenGL, real-time rendering, PBR, cross-platform optimization
+* **Machine learning and 3D:** Python, PyTorch, 3D Gaussian Splatting, diffusion models, CLIP/LongCLIP, mesh and material processing, multi-view evaluation, volumetric modeling
+* **Current research interests:** task-aware real-to-sim, sim-real co-training, domain variation and adaptation, structured 3D state modeling
+
+---
+
+## Languages and Honors
+
+* Chinese: Native (Mandarin and Cantonese)
+* English: Professional working proficiency (TOEFL iBT: 90; English-taught master's program)
+* Outstanding Student Scholarship (Third Prize), Sun Yat-sen University, 2018-2019
