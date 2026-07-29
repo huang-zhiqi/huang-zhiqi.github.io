@@ -8,20 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-I am an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学), where I work on **geometry-aware generative modeling** at the intersection of **computer graphics**, **computer vision**, and **generative AI**. My research centers on **3D understanding**: how 3D representations—including meshes, PBR materials, 3D Gaussian Splatting, volumetric data, and geometry/depth/normal priors—can ground generative models for **controllable digital humans**, **simulation-ready assets**, and **3D-aware video/world models**.
+I am currently a **Research Assistant (RA)** at **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture** at **Waseda University** (早稲田大学). My work focuses on **geometry-aware generative modeling** at the intersection of **computer graphics**, **computer vision**, and **generative AI**. My research centers on **3D understanding**: how 3D representations—including meshes, PBR materials, 3D Gaussian Splatting, volumetric data, and geometry/depth/normal priors—can ground generative models for **controllable digital humans**, **simulation-ready assets**, and **3D-aware video/world models**.
 
 Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles. This industry experience shaped how I think about 3D in practical systems: how assets, materials, and scenes are represented in game or simulation-like environments, and how 3D pipelines must be optimized for constrained mobile hardware.
 
 My recent work follows this direction across several settings. **SIE3D** studies how 3D priors support text-controllable avatar generation from a single image. A first-author manuscript on geometry-aware PBR material generation from long text, currently under review at **AAAI 2027**, studies how geometry can align 3D assets with text and image semantics. I am also preparing a **first-author AAAI 2027** manuscript that treats longitudinal lung-nodule CT forecasting as a 3D problem. Going forward, I am interested in extending this 3D-understanding view from static assets to **dynamic world models for embodied interaction**, including robot manipulation, AR/VR, interactive simulation, and game-scale virtual worlds.
 
-I am currently seeking **Research Assistant (RA)** opportunities and **2027 Ph.D. opportunities** in graphics, vision, generative AI, and embodied/world-model research. I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
+I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
 ## 🔥 News
 
-* **[Jun. 2026]** I am seeking **Research Assistant (RA)** opportunities in geometry-aware generative modeling, 3D-aware video/world models, embodied simulation, and efficient 3D generation.
-* **[2027 Intake]** I am interested in **Ph.D. opportunities** in graphics, vision, generative AI, and world models for embodied interaction.
-* **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on deform-then-edit 3D forecasting for longitudinal lung-nodule CT, learning bounded local deformation fields and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
+* **[Jul. 2026]** I am now a **Research Assistant (RA)** at **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)**.
 * **[Jul. 2026]** A first-author manuscript on geometry-aware PBR material generation from long text is under review at **AAAI 2027**.
+* **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on deform-then-edit 3D forecasting for longitudinal lung-nodule CT, learning bounded local deformation fields and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
 * **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
 
 ---
