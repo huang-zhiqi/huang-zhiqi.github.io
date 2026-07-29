@@ -8,40 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. My current direction is **sim-to-real embodied intelligence**, with a particular interest in task-relevant 3D simulation: how controllable scene representations, materials, and state models can make simulated experience more useful in the physical world.
+I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. My current research focuses on **task-relevant 3D simulation for sim-to-real embodied intelligence**: building controllable representations and simulated environments that support transfer to physical tasks.
 
-Across industry and research, I have returned to one question: **how can a 3D world preserve what matters while changing what a task requires?** At **4399 Games**, I built cross-platform real-time rendering systems, PBR pipelines, and production tools for shipped mobile and PC titles. In graduate research, I have studied the same design principle in three settings: preserving identity while controlling expression in 3D avatars, preserving geometry while generating relightable materials, and preserving stable anatomy while forecasting localized change in longitudinal CT.
-
-These projects were conducted in graphics and medical imaging rather than robot learning. They gave me a concrete foundation in controllable 3D representation, simulation content, structured prediction, and efficient systems. I am now extending that foundation toward **task-aware real-to-sim environments, sim-real co-training, and transfer evaluated by downstream behavior rather than visual similarity alone**.
+My work follows one principle: **preserve task-relevant structure while controlling the variation a system must handle**. After three years building real-time rendering and PBR pipelines at **4399 Games**, I applied this principle to identity-preserving 3D avatars, geometry-aware relightable materials, and persistence-aware longitudinal CT forecasting. These projects were developed in graphics and medical imaging; I am now extending their representation, simulation, and systems foundations toward real-to-sim environments and sim-real learning.
 
 ## News
 
-* **[Jul. 2026]** Joined **CUHK-Shenzhen** as a Research Assistant, moving my research toward **sim-to-real embodied intelligence**.
-* **[Jul. 2026]** Two first-author manuscripts are under review at **AAAI 2027**, on controllable PBR material generation and structured longitudinal 3D forecasting.
-* **[Jan. 2026]** My first-author and corresponding-author paper **SIE3D** was accepted to **IEEE ICASSP 2026**.
-
----
-
-## Research Story
-
-* **Production graphics - building usable virtual worlds.** Three years in game development taught me that a 3D system must balance visual fidelity, controllability, runtime efficiency, and integration with an asset pipeline.
-* **Controllable 3D humans - preserving identity under semantic edits.** SIE3D combines a single identity image with language-level expression and accessory control in an editable 3D Gaussian representation.
-* **Structured appearance and change - editing only what should change.** My PBR work generates relightable material channels conditioned on language and surface geometry. My CT work models localized future change while explicitly preserving stable surrounding anatomy.
-* **Embodied Sim2Real - transferring task-relevant structure.** My current step is to connect these ideas with embodied learning: reconstructing or generating useful simulation environments, varying the factors that matter to a task, and combining simulated experience with limited real data.
-
-The connection is methodological: each project asks what structure must remain invariant, what variation should be controllable, and how the result can be evaluated for its intended use.
+* **[Jul. 2026]** Joined **CUHK-Shenzhen** as a Research Assistant.
+* **[Jul. 2026]** Two first-author manuscripts are under review at **AAAI 2027**.
+* **[2026]** **SIE3D** was published at **IEEE ICASSP 2026**.
 
 ---
 
 ## Current Research Direction
 
-I am interested in Sim2Real as a **task-dependent transfer problem**, not only a pursuit of photorealism. A useful simulator need not reproduce every detail of reality; it should model the geometry, appearance, sensing, dynamics, and interaction factors that affect the target behavior.
+I view Sim2Real as a **task-dependent transfer problem**: a useful simulator should model the factors that affect physical behavior rather than reproduce every detail of reality.
 
-My current and longer-term interests are:
-
-* **Task-aware real-to-sim and simulation content:** constructing digital twins or digital cousins with controllable geometry, PBR appearance, cameras, lighting, and sensor conditions, then validating them through downstream tasks.
-* **Sim-real learning and adaptation:** co-training with diverse simulation and limited real demonstrations, identifying harmful domain gaps, and using randomization or adaptation where it improves physical transfer.
-* **Structured models of interaction:** extending my experience in localized 3D forecasting toward action-conditioned state transitions and uncertainty in contact-rich environments. This longer-term step will require explicit actions, physical interaction data, and closed-loop validation.
+* **Task-aware real-to-sim:** constructing controllable digital twins or digital cousins across geometry, appearance, cameras, lighting, and sensing.
+* **Sim-real learning:** combining diverse simulation with limited real data and identifying which domain gaps cause negative transfer.
+* **Structured interaction models:** studying action-conditioned state changes and uncertainty in contact-rich environments.
 
 ---
 
@@ -52,7 +37,7 @@ My current and longer-term interests are:
 **IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
 **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
 
-SIE3D generates an editable 3D Gaussian head avatar from one image while allowing natural-language control over expression and accessories. It combines identity, text semantics, and an explicit perceptual expression objective to improve expression alignment while preserving the subject's identity. This work established my foundation in controllable multimodal 3D representation.
+SIE3D generates an editable 3D Gaussian head avatar from one image while allowing natural-language control over expression and accessories. It combines identity, text semantics, and an explicit perceptual expression objective to improve expression alignment while preserving the subject's identity.
 
 <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a>
 <a class="pub-link" href="https://doi.org/10.1109/ICASSP55912.2026.11462135">IEEE Xplore</a>
@@ -61,8 +46,8 @@ SIE3D generates an editable 3D Gaussian head avatar from one image while allowin
 
 ### Manuscripts Under Review
 
-* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* The work studies how to retain long material specifications, route them to geometry-relevant regions, and preserve variation across relightable PBR channels. Its Sim2Real connection is upstream: controllable surface appearance can improve simulation assets and visual-domain variation, while policy transfer also depends on physics, sensing, and task alignment.
-* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* The method transports persistent structure and restricts residual edits to regions expected to change. Developed for medical imaging, it contributes experience in structured 3D state transitions and strong persistence baselines. An embodied extension would require explicit actions and physical-interaction validation.
+* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates relightable PBR channels by retaining detailed material specifications and routing them with surface geometry. This work contributes to controllable simulation assets and appearance variation.
+* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* Forecasts localized volumetric change while explicitly preserving stable surrounding anatomy. Developed for medical imaging, it provides experience in persistence-aware 3D transition modeling.
 
 ---
 
@@ -71,8 +56,6 @@ SIE3D generates an editable 3D Gaussian head avatar from one image while allowin
 ### The Chinese University of Hong Kong, Shenzhen
 
 **Research Assistant** - *Jul. 2026 - Present*
-
-* Current direction: task-relevant 3D simulation and sim-to-real embodied intelligence.
 
 ### 4399 Games
 
@@ -102,12 +85,11 @@ SIE3D generates an editable 3D Gaussian head avatar from one image while allowin
 
 * **Graphics and systems:** C++, C#, GLSL/HLSL, Unity, Vulkan, OpenGL, real-time rendering, PBR, cross-platform optimization
 * **Machine learning and 3D:** Python, PyTorch, 3D Gaussian Splatting, diffusion models, CLIP/LongCLIP, mesh and material processing, multi-view evaluation, volumetric modeling
-* **Current research interests:** task-aware real-to-sim, sim-real co-training, domain variation and adaptation, structured 3D state modeling
 
 ---
 
 ## Languages and Honors
 
 * Chinese: Native (Mandarin and Cantonese)
-* English: Professional working proficiency (TOEFL iBT: 90; English-taught master's program)
+* English: Professional working proficiency (TOEFL iBT: 90)
 * Outstanding Student Scholarship (Third Prize), Sun Yat-sen University, 2018-2019
