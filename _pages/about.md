@@ -12,7 +12,7 @@ I am currently a **Research Assistant (RA)** at **The Chinese University of Hong
 
 Before starting my master's, I spent three years at **4399 Games** building cross-platform real-time rendering systems for shipped mobile and PC titles. This industry experience shaped how I think about 3D in practical systems: how assets, materials, and scenes are represented in game or simulation-like environments, and how 3D pipelines must be optimized for constrained mobile hardware.
 
-My previous research provides complementary foundations for this direction. **SIE3D** gave me experience with controllable 3D representations and multimodal grounding. My **AAAI 2027** submission on geometry-aware PBR material generation develops relightable, simulation-ready assets and studies appearance consistency across geometry, views, and lighting. My ongoing longitudinal CT forecasting project studies structured 3D change while preserving surrounding context. Together with my industry experience in real-time rendering and systems optimization, these projects provide a foundation in spatial representation, realistic simulation content, predictive modeling, and efficient deployment that I now aim to bring to embodied sim-to-real research.
+My previous research provides complementary foundations for this direction. **SIE3D** gave me experience with controllable 3D representations and multimodal grounding. My two **AAAI 2027** submissions extend this foundation in different ways: the geometry-aware PBR work develops relightable, simulation-ready assets and studies appearance consistency across geometry, views, and lighting, while the longitudinal CT forecasting work studies structured 3D change while preserving surrounding context. Together with my industry experience in real-time rendering and systems optimization, these projects provide a foundation in spatial representation, realistic simulation content, predictive modeling, and efficient deployment that I now aim to bring to embodied sim-to-real research.
 
 I received my B.E. in Software Engineering from **Sun Yat-sen University** (中山大学) in 2021.
 
@@ -20,7 +20,7 @@ I received my B.E. in Software Engineering from **Sun Yat-sen University** (中�
 
 * **[Jul. 2026]** I am now a **Research Assistant (RA)** at **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)**, where my current research direction focuses on **embodied intelligence** and **sim-to-real transfer**.
 * **[Jul. 2026]** A first-author manuscript on geometry-aware PBR material generation from long text is under review at **AAAI 2027**.
-* **[Jun. 2026]** I am preparing a **first-author AAAI 2027** manuscript on deform-then-edit 3D forecasting for longitudinal lung-nodule CT, learning bounded local deformation fields and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
+* **[Jul. 2026]** A first-author manuscript on deform-then-edit longitudinal CT forecasting is under review at **AAAI 2027**.
 * **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
 
 ---
@@ -63,14 +63,14 @@ Current and future interests include:
   * *AAAI 2027 (Under Review)*
   * A method for generating relightable PBR materials for 3D meshes from long-form descriptions, emphasizing how geometry priors help align material semantics with 3D assets. The work targets simulation-ready assets with stronger semantic alignment, multi-view consistency, physical plausibility, and efficient inference on consumer-grade GPUs.
 
+* **First-author manuscript on deform-then-edit longitudinal CT forecasting**
+  * *AAAI 2027 (Under Review)*
+  * **Role:** First Author
+  * This work treats longitudinal lung-nodule CT forecasting as a 3D understanding problem, using deform-then-edit 3D forecasting to predict future ROI appearance while preserving background anatomy.
+
 ---
 
 ## 📄 Manuscripts in Preparation
-
-* **First-author manuscript on deform-then-edit longitudinal CT forecasting**
-  * *Target: AAAI 2027*
-  * **Role:** First Author
-  * This work treats longitudinal lung-nodule CT forecasting as a 3D understanding problem, using deform-then-edit 3D forecasting to predict future ROI appearance while preserving background anatomy.
 
 ---
 
