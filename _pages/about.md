@@ -31,11 +31,9 @@ My current RA work and intended future Ph.D. research center on **embodied intel
 
 Current and future interests include:
 
-* **Sim-to-real transfer for embodied agents:** improving generalization across visual, geometric, dynamic, sensor, and interaction differences between simulation and the real world.
-* **3D-aware world models and predictive simulation:** learning spatially consistent scene representations and future states for robot manipulation, embodied planning, and closed-loop interaction.
-* **Simulation-ready assets and digital twins:** creating relightable PBR assets, controllable 3D scenes, and structured environment variations for scalable training and evaluation.
-* **Geometry-aware perception and representation learning:** using depth, normals, materials, and multi-view cues to learn representations that remain stable under domain shifts.
-* **Efficient adaptation and deployment:** developing parameter-efficient adaptation, real-time inference, and practical evaluation across simulated and physical platforms.
+* **Sim-to-real embodied intelligence:** learning robust perception and behavior that transfer across visual, geometric, dynamic, and sensor gaps between simulation and the real world.
+* **3D-aware simulation and world models:** building predictive 3D representations, digital twins, and simulation-ready assets for robot manipulation and embodied planning.
+* **Efficient adaptation and deployment:** adapting models efficiently and evaluating them through real-time, closed-loop interaction on physical systems.
 
 ---
 
