@@ -20,7 +20,7 @@ I received my B.E. in Software Engineering from **Sun Yat-sen University** (ä¸­å
 
 * **[Jul. 2026]** I am now a **Research Assistant (RA)** at **The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)**, where my current research direction focuses on **embodied intelligence** and **sim-to-real transfer**.
 * **[Jul. 2026]** A first-author manuscript on geometry-aware PBR material generation from long text is under review at **AAAI 2027**.
-* **[Jul. 2026]** A first-author manuscript on deform-then-edit longitudinal CT forecasting is under review at **AAAI 2027**.
+* **[Jul. 2026]** My first-author manuscript on deform-then-edit 3D forecasting for longitudinal lung-nodule CT has also been submitted to **AAAI 2027**. It learns bounded local deformation fields and gated residual CT edits to predict future ROI appearance while preserving background anatomy.
 * **[Jan. 2026]** My first-author paper **"SIE3D"** was accepted to **ICASSP 2026**.
 
 ---
