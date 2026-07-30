@@ -14,13 +14,13 @@
 )
 
 === Research Profile
-- Research Assistant at CUHK-Shenzhen and M.Phil. student at Waseda University, working toward task-relevant 3D simulation for sim-to-real embodied intelligence.
-- My work follows one principle: preserve task-relevant structure while controlling the variation a system must handle. My background spans production graphics, controllable 3D generation, relightable materials, and persistence-aware volumetric forecasting.
+- Research Assistant at CUHK-Shenzhen and M.Phil. student at Waseda University, studying how structured 3D models can turn real observations into useful environments for robot learning.
+- My work has progressed from controllable 3D avatars and geometry-aligned relightable materials to predictive modeling of volumetric change. I am now extending these ideas toward task-aware digital cousins and action-conditioned 3D environment models.
 
 === Research Interests
-- Task-aware real-to-sim environments and controllable digital twins or digital cousins.
-- Sim-real co-training, domain-gap diagnosis, adaptation, and transfer evaluation.
-- Structured action-conditioned state models for contact-rich interaction.
+- Task-aware real-to-sim and editable 3D digital cousins for robot learning.
+- Action-conditioned 3D transition and world models for robotic manipulation.
+- Sim-and-real co-training, reality-gap diagnosis, and performance-based transfer evaluation.
 
 === Research Experience
 #experience(
@@ -29,7 +29,7 @@
   time: [Jul. 2026 - Present],
   location: "Shenzhen, China",
 )[
-- Research focus: task-relevant 3D simulation and sim-to-real embodied intelligence.
+- Research focus: task-grounded 3D environment models for real-to-sim-to-real robot learning.
 ]
 
 === Education
@@ -70,7 +70,7 @@
   time: [2026],
 )[
 - Generates relightable PBR channels by retaining detailed material specifications and routing them with surface geometry.
-- Contributes to controllable simulation assets and systematic appearance variation.
+- Extends controllable 3D modeling to geometry-aligned, physically based object appearance, with relevance to the visual-observation side of real-to-sim.
 ]
 ]
 
@@ -80,7 +80,7 @@
   time: [2026],
 )[
 - Forecasts localized volumetric change while explicitly preserving stable surrounding anatomy.
-- Developed for medical imaging; provides experience in persistence-aware 3D transition modeling and strong no-change baselines.
+- Introduces a history-conditioned deform-then-edit transition model; it provides a methodological basis for future action-conditioned 3D transitions but does not model robot actions itself.
 ]
 
 === Industry Experience
