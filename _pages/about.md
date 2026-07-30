@@ -1,16 +1,16 @@
 ---
 permalink: /
 title: "Zhiqi Huang"
-excerpt: "Zhiqi Huang"
+excerpt: "Task-grounded 3D environment models for real-to-sim-to-real robot learning"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. My research centers on **structured and controllable 3D representations for simulation and predictive modeling**.
+I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. I study how structured 3D models can turn real observations into useful environments for robot learning.
 
-After three years building real-time rendering and PBR pipelines at **4399 Games**, I studied identity-preserving 3D avatars, geometry-aware relightable materials, and persistence-aware volumetric forecasting. I am now extending this progression from **controllable 3D content** to **predictive 3D state modeling**, and toward task-relevant simulation and **action-conditioned world models** for sim-to-real embodied intelligence.
+Before returning to academia, I spent three years building real-time rendering and PBR pipelines at **4399 Games**. My research has since progressed from identity-preserving 3D avatars and geometry-aligned relightable materials to predictive modeling of changes in volumetric state. I am now extending these ideas toward **task-aware digital cousins** and **action-conditioned 3D environment models**: reconstructing what matters for interaction, predicting what robot actions will change, and combining simulated and real experience for robust deployment.
 
 ## News
 
@@ -22,13 +22,17 @@ After three years building real-time rendering and PBR pipelines at **4399 Games
 
 ## Research Direction
 
-My research progresses across three levels of 3D modeling:
+### Task-Grounded 3D Environment Models for Real-to-Sim-to-Real Learning
 
-* **Controllable 3D content:** representing humans, objects, and materials so that semantic or appearance attributes can be edited while spatial structure remains consistent.
-* **Predictive 3D state modeling:** modeling how a spatial state changes over time while preserving persistent context and localizing meaningful change.
-* **Action-conditioned 3D world models:** extending passive state prediction to changes caused by agent actions, contact, and physical uncertainty. This is my current and future direction rather than a description of completed work.
+My central question is: **what must a 3D environment model reconstruct and predict for simulated experience to improve real-world robot performance?**
 
-For Sim2Real, I am particularly interested in **task-aware real-to-sim environments** and **sim-real co-training**, with transfer evaluated by physical task performance rather than visual similarity alone.
+Rather than pursuing photorealism for its own sake, I focus on digital cousins that capture the geometry, appearance, articulation, and dynamics needed by a target task, while real data covers the remaining gap. This direction connects three components:
+
+* **Task-aware real-to-sim:** recover editable environments from images and video with task-relevant geometry, object structure, articulation, and sensor-facing appearance.
+* **Action-conditioned 3D transitions:** predict object and scene changes under robot actions, contact, and physical uncertainty.
+* **Sim-and-real learning:** generate targeted experience in digital cousins, co-train with limited real demonstrations, and refine the environment model from real-world failures.
+
+Together, these components provide a practical path toward **action-conditioned 3D world models**, evaluated by real-world task success and robustness rather than visual similarity alone.
 
 ---
 
@@ -39,7 +43,7 @@ For Sim2Real, I am particularly interested in **task-aware real-to-sim environme
 **IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
 **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
 
-SIE3D generates an editable 3D Gaussian head avatar from one image while allowing natural-language control over expression and accessories. It combines identity, text semantics, and an explicit perceptual expression objective to improve expression alignment while preserving the subject's identity. This work established my foundation in controllable 3D content and multimodal 3D representation.
+SIE3D generates an editable 3D Gaussian head avatar from one image with natural-language control over expression and accessories. By combining identity conditioning, text semantics, and perceptual expression guidance, it established my foundation in controllable 3D representation and identity-consistent editing.
 
 <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a>
 <a class="pub-link" href="https://doi.org/10.1109/ICASSP55912.2026.11462135">IEEE Xplore</a>
@@ -48,8 +52,8 @@ SIE3D generates an editable 3D Gaussian head avatar from one image while allowin
 
 ### Manuscripts Under Review
 
-* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates relightable PBR channels by retaining detailed material specifications and routing them with surface geometry. This work extends controllable 3D content from digital humans to object appearance and contributes to simulation-ready assets.
-* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* Forecasts localized volumetric change while explicitly preserving stable surrounding anatomy. Developed for medical imaging, it advances my work from controllable 3D content toward predictive 3D state modeling; it does not include action conditioning or physical interaction.
+* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates relightable PBR channels by retaining detailed material specifications and routing them with surface geometry. It extends controllable 3D modeling from humans to geometry-aligned, physically based object appearance, with relevance to the visual-observation side of real-to-sim.
+* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* Forecasts localized volumetric change while preserving stable anatomy. Although developed for medical imaging, it contributes a transition-modeling perspective - anchor the current 3D state, deform what persists, and localize what changes - without claiming action conditioning in the current model.
 
 ---
 
