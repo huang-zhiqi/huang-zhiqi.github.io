@@ -69,14 +69,11 @@ SIE3D generates an editable 3D Gaussian head avatar from one image while preserv
 
 ### 4399 Games
 
-**Senior Graphics Engineer** - *2023 - 2024*
+**Graphics Engineer / Senior Graphics Engineer** - *2021 - 2024*
 
-* Led a rendering team of 3-5 engineers and owned the rendering roadmap for *Era of Conquest* on mobile and PC.
+* Promoted to Senior Graphics Engineer in 2023; led a rendering team of 3-5 engineers and owned the rendering roadmap for *Era of Conquest* on mobile and PC.
+* Built and optimized its real-time rendering pipeline, including cross-platform shaders, PBR material representation, and mobile performance.
 * Developed reusable asset, material, and rendering pipelines for interactive virtual worlds across mobile, PC, and web platforms.
-
-**Graphics Engineer** - *2021 - 2023*
-
-* Built and optimized the real-time rendering pipeline for *Era of Conquest*, including cross-platform shaders, PBR material representation, and mobile performance.
 
 ---
 
