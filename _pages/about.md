@@ -10,7 +10,7 @@ redirect_from:
 
 I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. I study **world modeling and simulation for Physical AI**. My research develops simulation-ready world representations, action-conditioned world simulation, and learning systems that turn model-generated experience into real-robot capability.
 
-My background spans real-time graphics, controllable 3D generation, physically based appearance, and structured spatiotemporal prediction. From 2021 to 2024, I built cross-platform rendering and PBR pipelines at **4399 Games**. I now apply these foundations to **real-to-sim-to-real robot learning**.
+My background spans real-time graphics, controllable 3D generation, physically based appearance, robust semantic perception, and structured spatiotemporal prediction. From 2021 to 2024, I built cross-platform rendering and PBR pipelines at **4399 Games**. I now apply these foundations to **real-to-sim-to-real robot learning**.
 
 ## News
 
@@ -28,7 +28,7 @@ My central question is: **how can world models provide scalable and reliable exp
 
 I work at the interface of generative world modeling, physics-based simulation, and robot learning. My research agenda covers three connected directions:
 
-* **Simulation-ready world representations:** build structured and editable models of real environments from visual observations. These representations capture geometry, semantics, articulation, material appearance, and physical properties required for interaction.
+* **Simulation-ready world representations:** build structured and editable models of real environments from visual observations. These representations capture geometry, semantics, articulation, material appearance, and physical properties, with robust perception across sensor and distribution shifts.
 * **Action-conditioned world simulation:** generate multimodal rollouts of future states conditioned on robot actions. Neural dynamics and physical simulation capture contact, deformation, uncertainty, and counterfactual outcomes.
 * **World-model-driven robot learning:** use simulated and imagined trajectories for policy pretraining, planning, evaluation, and adaptation. Real robot data drives joint improvement of the world model and policy.
 
@@ -56,6 +56,7 @@ SIE3D generates an editable 3D Gaussian head avatar from one image, preserves id
 
 * **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates geometry-aligned, relightable albedo, roughness, and metallic channels from detailed material specifications. The work develops structured appearance representations for relighting and controllable visual simulation.
 * **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* Forecasts localized volumetric change and preserves stable anatomy. Its deform-then-edit transition model separates coherent transport from localized residual change. This structured transition view motivates my work on action-conditioned world simulation.
+* **Robust pseudo-labeling under imaging noise and long-tailed data** - *Second author and corresponding author; NeurIPS 2026 under review.* Develops feature-threshold dual calibration for rare-class semantic segmentation across sonar, underwater, and adverse-weather imagery. The work contributes robust semantic perception for simulation-ready world representations under sensor and distribution shifts.
 
 ---
 
