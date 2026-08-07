@@ -15,7 +15,7 @@ My background spans real-time graphics, controllable 3D generation, physically b
 ## News
 
 * **[Jul. 2026]** Joined **CUHK-Shenzhen** as a Research Assistant.
-* **[Jul. 2026]** Two first-author manuscripts are under review at **AAAI 2027**.
+* **[2026]** Three manuscripts are under review, including two first-author works.
 * **[2026]** **SIE3D** was published at **IEEE ICASSP 2026**.
 
 ---
@@ -54,9 +54,9 @@ SIE3D generates an editable 3D Gaussian head avatar from one image, preserves id
 
 ### Manuscripts Under Review
 
-* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates geometry-aligned, relightable albedo, roughness, and metallic channels from detailed material specifications. The work develops structured appearance representations for relighting and controllable visual simulation.
-* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* Forecasts localized volumetric change and preserves stable anatomy. Its deform-then-edit transition model separates coherent transport from localized residual change. This structured transition view motivates my work on action-conditioned world simulation.
-* **Robust pseudo-labeling under imaging noise and long-tailed data** - *Second author and corresponding author; NeurIPS 2026 under review.* Develops feature-threshold dual calibration for rare-class semantic segmentation across sonar, underwater, and adverse-weather imagery. The work contributes robust semantic perception for simulation-ready world representations under sensor and distribution shifts.
+* **Controllable PBR material generation from long-form descriptions** - *First author; manuscript under review.* Generates geometry-aligned, relightable albedo, roughness, and metallic channels from detailed material specifications. The work develops structured appearance representations for relighting and controllable visual simulation.
+* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; manuscript under review.* Forecasts localized volumetric change and preserves stable anatomy. Its deform-then-edit transition model separates coherent transport from localized residual change. This structured transition view motivates my work on action-conditioned world simulation.
+* **Robust pseudo-labeling under imaging noise and long-tailed data** - *Second author and corresponding author; manuscript under review.* Develops feature-threshold dual calibration for rare-class semantic segmentation across sonar, underwater, and adverse-weather imagery. The work contributes robust semantic perception for simulation-ready world representations under sensor and distribution shifts.
 
 ---
 
