@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. I study **world modeling and simulation for Physical AI**: how structured representations and predictive environments can turn real observations into useful simulated experience for robot learning.
+I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. I study **world modeling and simulation for Physical AI**, with a focus on actionable world representations, action-conditioned simulation, and world-model-driven robot learning.
 
-Before returning to academia, I spent three years building real-time rendering and PBR pipelines at **4399 Games**, gaining production experience in constructing interactive virtual worlds under real system constraints. My academic work has since developed complementary foundations in controllable 3D representation, geometry-aligned physically based appearance, and structured prediction of 3D change. I am now connecting these foundations to **real-to-sim-to-real robot learning** through digital cousins, action-conditioned world models, and sim-and-real training.
+From 2021 to 2024, I built real-time rendering and PBR pipelines at **4399 Games**, gaining production experience in interactive virtual worlds and real system constraints. My academic research covers controllable 3D representation, geometry-aligned physically based appearance, and structured prediction of 3D change. These foundations support my current work on **real-to-sim-to-real robot learning**.
 
 ## News
 
@@ -26,15 +26,15 @@ Before returning to academia, I spent three years building real-time rendering a
 
 My central question is: **what must a model of the world represent, predict, and simulate for virtual experience to improve real-world robot performance?**
 
-My long-term goal is to help intelligent agents perceive, predict, and act reliably in the physical world. I focus on the **environment side of Physical AI**: constructing useful counterparts of real scenes, modeling how they evolve under action, and turning them into interactive environments for robot learning.
+My long-term goal is to help intelligent agents perceive, predict, and act reliably in the physical world. I focus on the **environment side of Physical AI**, where real observations become structured representations, action-conditioned simulations, and experience for robot learning.
 
-World models for Physical AI represent agent-relevant state, predict how it evolves under action, and provide interactive environments for learning and evaluation. I study digital cousins with task-relevant geometry, appearance, articulation, dynamics, and uncertainty. This direction has three components:
+World models for Physical AI connect representations of the current environment, predictions of future states, and interfaces for learning and control. I organize this agenda around three connected problems:
 
-* **Real-to-sim world construction:** turn images and video of a deployment environment into editable simulations with task-relevant geometry, object structure, articulation, sensor-facing appearance, and physical parameters.
-* **Predictive and interactive world models:** model distributions over future states under robot actions, contact, deformation, and partially observed physical properties, combining structured state transitions with physics-based simulation where appropriate.
-* **Sim-and-real robot learning:** generate targeted experience in reconstructed or varied worlds, combine it with limited real demonstrations, and use deployment failures to refine both the simulation distribution and the learned model.
+* **Actionable world representations:** recover structured, editable, and simulation-ready representations of real environments from images and video. These representations encode geometry, semantics, articulation, sensor appearance, and physical properties for interaction.
+* **Action-conditioned world simulation:** predict future observations and states under robot actions. Learned dynamics and physics-based simulation model contact, deformation, uncertainty, and alternative outcomes.
+* **World-model-driven robot learning:** use simulated and imagined rollouts for policy training, planning, evaluation, and adaptation. Real robot experience updates the world model, training distribution, and policy.
 
-Together, these components close a real-to-sim-to-real loop among world representation, prediction, simulation, policy learning, and physical deployment. Evaluation focuses on real-world task success, robustness, transfer, and the correlation between simulated and real performance.
+These components form a real-to-sim-to-real loop across world representation, simulation, policy learning, and physical deployment. Real-world task success, robustness, transfer, and sim-real correlation provide the evaluation criteria.
 
 ---
 
@@ -45,7 +45,7 @@ Together, these components close a real-to-sim-to-real loop among world represen
 **IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
 **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
 
-SIE3D generates an editable 3D Gaussian head avatar from one image, preserves identity, and supports language-level control over expression and accessories. It established my foundation in multimodal conditioning, controllable 3D representation, and identity-consistent editing—capabilities relevant to building structured, editable environments.
+SIE3D generates an editable 3D Gaussian head avatar from one image, preserves identity, and supports language-level control over expression and accessories. It provides experience in multimodal conditioning, controllable 3D representation, and identity-consistent editing. These capabilities support structured and editable world representations.
 
 <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a>
 <a class="pub-link" href="https://doi.org/10.1109/ICASSP55912.2026.11462135">IEEE Xplore</a>
@@ -54,8 +54,8 @@ SIE3D generates an editable 3D Gaussian head avatar from one image, preserves id
 
 ### Manuscripts Under Review
 
-* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates geometry-aligned, relightable albedo, roughness, and metallic channels from detailed material specifications. It contributes structured, physically based sensor appearance to the observation side of world modeling.
-* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* Forecasts localized volumetric change and preserves stable anatomy. The model is history-conditioned and developed for medical imaging. Its transition-modeling principle anchors the current state, explains coherent motion explicitly, and localizes change.
+* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates geometry-aligned, relightable albedo, roughness, and metallic channels from detailed material specifications. It contributes structured, physically based sensor appearance to actionable world representations.
+* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* Forecasts localized volumetric change and preserves stable anatomy. The model is history-conditioned and developed for medical imaging. Its transition model anchors the current state, explains coherent motion explicitly, and localizes change. This principle informs future action-conditioned world simulation.
 
 ---
 
@@ -65,7 +65,7 @@ SIE3D generates an editable 3D Gaussian head avatar from one image, preserves id
 
 **Research Assistant** - *Jul. 2026 - Present*
 
-* Current focus: world modeling and simulation for real-to-sim-to-real robot learning.
+* Current focus: actionable world representations and action-conditioned simulation for real-to-sim-to-real robot learning.
 
 ### 4399 Games
 
