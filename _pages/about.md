@@ -1,16 +1,16 @@
 ---
 permalink: /
 title: "Zhiqi Huang"
-excerpt: "Task-grounded 3D environment models for real-to-sim-to-real robot learning"
+excerpt: "Building task-grounded 3D environments for Physical AI and real-to-sim-to-real robot learning"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. I study how structured 3D models can turn real observations into useful environments for robot learning.
+I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. I build **task-grounded 3D environments for Physical AI**, studying how structured 3D representations can turn real observations into simulations that improve real-world robot learning.
 
-Before returning to academia, I spent three years building real-time rendering and PBR pipelines at **4399 Games**. My research has since progressed from identity-preserving 3D avatars and geometry-aligned relightable materials to predictive modeling of changes in volumetric state. I am now extending these ideas toward **task-aware digital cousins** and **action-conditioned 3D environment models**: reconstructing what matters for interaction, predicting what robot actions will change, and combining simulated and real experience for robust deployment.
+Before returning to academia, I spent three years building real-time rendering and PBR pipelines at **4399 Games**. My subsequent research developed complementary foundations in controllable 3D representation, geometry-aligned physically based appearance, and structured prediction of volumetric change. I am now bringing these foundations together through **task-aware digital cousins**, **action-conditioned 3D environment models**, and **sim-and-real learning**: reconstructing what matters for interaction, modeling how robot actions may change a scene, and using both simulated and real experience for reliable real-world deployment.
 
 ## News
 
@@ -22,17 +22,19 @@ Before returning to academia, I spent three years building real-time rendering a
 
 ## Research Direction
 
-### Task-Grounded 3D Environment Models for Real-to-Sim-to-Real Learning
+### Building Task-Grounded 3D Environments for Physical AI
 
 My central question is: **what must a 3D environment model reconstruct and predict for simulated experience to improve real-world robot performance?**
 
-Rather than pursuing photorealism for its own sake, I focus on digital cousins that capture the geometry, appearance, articulation, and dynamics needed by a target task, while real data covers the remaining gap. This direction connects three components:
+My long-term goal is to help intelligent agents perceive, predict, and act reliably in the physical world. My specific focus is the **environment side of Physical AI**: building useful virtual counterparts of real scenes and closing the loop between observation, simulation, policy learning, and deployment.
+
+Rather than pursuing photorealism for its own sake, I focus on digital cousins that capture the geometry, appearance, articulation, and dynamics required by a target task, while real data covers the remaining gap. This direction connects three components:
 
 * **Task-aware real-to-sim:** recover editable environments from images and video with task-relevant geometry, object structure, articulation, and sensor-facing appearance.
 * **Action-conditioned 3D transitions:** predict object and scene changes under robot actions, contact, and physical uncertainty.
 * **Sim-and-real learning:** generate targeted experience in digital cousins, co-train with limited real demonstrations, and refine the environment model from real-world failures.
 
-Together, these components provide a practical path toward **action-conditioned 3D world models**, evaluated by real-world task success and robustness rather than visual similarity alone.
+Within this agenda, **action-conditioned 3D world models** serve as a methodological bridge between representing virtual worlds and acting in the physical one. Their value should be measured by real-world task success and robustness, rather than visual similarity alone.
 
 ---
 
@@ -52,7 +54,7 @@ SIE3D generates an editable 3D Gaussian head avatar from one image with natural-
 
 ### Manuscripts Under Review
 
-* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates relightable PBR channels by retaining detailed material specifications and routing them with surface geometry. It extends controllable 3D modeling from humans to geometry-aligned, physically based object appearance, with relevance to the visual-observation side of real-to-sim.
+* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates relightable PBR channels by retaining detailed material specifications and routing them with surface geometry. It extends controllable 3D modeling from humans to geometry-aligned, physically based object appearance, with relevance to reconstructing sensor-facing appearance in real-to-sim pipelines.
 * **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* Forecasts localized volumetric change while preserving stable anatomy. Although developed for medical imaging, it contributes a transition-modeling perspective - anchor the current 3D state, deform what persists, and localize what changes - without claiming action conditioning in the current model.
 
 ---
