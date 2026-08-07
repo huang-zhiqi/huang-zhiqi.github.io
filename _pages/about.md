@@ -28,13 +28,13 @@ My central question is: **what must a model of the world represent, predict, and
 
 My long-term goal is to help intelligent agents perceive, predict, and act reliably in the physical world. I focus on the **environment side of Physical AI**: constructing useful counterparts of real scenes, modeling how they evolve under action, and turning them into interactive environments for robot learning.
 
-A useful world model should be more than a visual generator. It should represent the state an agent needs to observe, predict how that state may change, and support interventions through actions. Rather than reproducing every detail, I am interested in digital cousins whose geometry, appearance, articulation, dynamics, and uncertainty are calibrated to downstream tasks. This direction connects three components:
+World models for Physical AI represent agent-relevant state, predict how it evolves under action, and provide interactive environments for learning and evaluation. I study digital cousins with task-relevant geometry, appearance, articulation, dynamics, and uncertainty. This direction has three components:
 
 * **Real-to-sim world construction:** turn images and video of a deployment environment into editable simulations with task-relevant geometry, object structure, articulation, sensor-facing appearance, and physical parameters.
 * **Predictive and interactive world models:** model distributions over future states under robot actions, contact, deformation, and partially observed physical properties, combining structured state transitions with physics-based simulation where appropriate.
 * **Sim-and-real robot learning:** generate targeted experience in reconstructed or varied worlds, combine it with limited real demonstrations, and use deployment failures to refine both the simulation distribution and the learned model.
 
-Together, these components close a real-to-sim-to-real loop among world representation, prediction, simulation, policy learning, and physical deployment. I evaluate progress by real-world task success, robustness, and transfer—not visual similarity alone.
+Together, these components close a real-to-sim-to-real loop among world representation, prediction, simulation, policy learning, and physical deployment. Evaluation focuses on real-world task success, robustness, transfer, and the correlation between simulated and real performance.
 
 ---
 
@@ -45,7 +45,7 @@ Together, these components close a real-to-sim-to-real loop among world represen
 **IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
 **Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
 
-SIE3D generates an editable 3D Gaussian head avatar from one image while preserving identity and enabling language-level control over expression and accessories. It established my foundation in multimodal conditioning, controllable 3D representation, and identity-consistent editing—capabilities relevant to building structured, editable environments.
+SIE3D generates an editable 3D Gaussian head avatar from one image, preserves identity, and supports language-level control over expression and accessories. It established my foundation in multimodal conditioning, controllable 3D representation, and identity-consistent editing—capabilities relevant to building structured, editable environments.
 
 <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a>
 <a class="pub-link" href="https://doi.org/10.1109/ICASSP55912.2026.11462135">IEEE Xplore</a>
@@ -54,8 +54,8 @@ SIE3D generates an editable 3D Gaussian head avatar from one image while preserv
 
 ### Manuscripts Under Review
 
-* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates geometry-aligned, relightable material channels while retaining detailed specifications from long-form text. It strengthens the observation side of world modeling through structured, physically based appearance; the current work models optical reflectance rather than mechanical properties such as mass, friction, or contact dynamics.
-* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* Forecasts localized volumetric change while preserving stable anatomy. Although the current model is history-conditioned and medical rather than action-conditioned and robotic, it contributes a transition-modeling principle: anchor the current state, explain coherent motion explicitly, and localize what changes.
+* **Controllable PBR material generation from long-form descriptions** - *First author; AAAI 2027 under review.* Generates geometry-aligned, relightable albedo, roughness, and metallic channels from detailed material specifications. It contributes structured, physically based sensor appearance to the observation side of world modeling.
+* **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; AAAI 2027 under review.* Forecasts localized volumetric change and preserves stable anatomy. The model is history-conditioned and developed for medical imaging. Its transition-modeling principle anchors the current state, explains coherent motion explicitly, and localizes change.
 
 ---
 
