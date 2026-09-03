@@ -14,13 +14,13 @@
 )
 
 === Research Profile
-- Research Assistant at CUHK-Shenzhen and M.Phil. student at Waseda University, studying how structured 3D models can turn real observations into useful environments for robot learning.
-- My work has progressed from controllable 3D avatars and geometry-aligned relightable materials to predictive modeling of volumetric change. I am now extending these ideas toward task-aware digital cousins and action-conditioned 3D environment models.
+- Research Assistant at CUHK-Shenzhen and M.Phil. student at Waseda University, working on world models for embodied AI with a focus on understanding and reducing the sim-to-real gap.
+- My background spans production graphics, controllable 3D generation, physically based appearance, robust perception, and structured prediction---foundations I now bring to world-model-based robot learning.
 
 === Research Interests
-- Task-aware real-to-sim and editable 3D digital cousins for robot learning.
-- Action-conditioned 3D transition and world models for robotic manipulation.
-- Sim-and-real co-training, reality-gap diagnosis, and performance-based transfer evaluation.
+- World models for embodied AI and robotic manipulation.
+- Sim-to-real transfer through reality-gap diagnosis and adaptation.
+- Learning from simulated and real experience for robust policy training and evaluation.
 
 === Research Experience
 #experience(
@@ -29,7 +29,7 @@
   time: [Jul. 2026 - Present],
   location: "Shenzhen, China",
 )[
-- Research focus: task-grounded 3D environment models for real-to-sim-to-real robot learning.
+- Research focus: using world models to support embodied AI, with particular emphasis on understanding and reducing the sim-to-real gap.
 ]
 
 === Education
