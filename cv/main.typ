@@ -83,6 +83,15 @@
 - Introduces a history-conditioned deform-then-edit transition model; it provides a methodological basis for future action-conditioned 3D transitions but does not model robot actions itself.
 ]
 
+#experience(
+  place: "Robust pseudo-labeling under imaging noise and long-tailed data",
+  title: "Second Author, Corresponding Author; NeurIPS 2026 (Under Review)",
+  time: [2026],
+)[
+- Develops feature-threshold dual calibration for rare-class semantic segmentation across sonar, underwater, and adverse-weather imagery.
+- Contributes robust semantic perception for simulation-ready world representations under sensor and distribution shifts.
+]
+
 === Industry Experience
 #experience(
   place: "4399 Games",

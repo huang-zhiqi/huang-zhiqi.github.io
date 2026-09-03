@@ -48,6 +48,9 @@ Research Assistant at **CUHK-Shenzhen** and M.Phil. student at **Waseda Universi
 * **Deform-then-edit forecasting for longitudinal 3D CT**
   * First author; AAAI 2027 under review
   * Structured volumetric forecasting that preserves persistent anatomy and restricts edits to expected regions of change
+* **Robust pseudo-labeling under imaging noise and long-tailed data**
+  * Second author and corresponding author; NeurIPS 2026 under review
+  * Feature-threshold dual calibration for rare-class semantic segmentation across sonar, underwater, and adverse-weather imagery
 
 ## Industry Experience
 
