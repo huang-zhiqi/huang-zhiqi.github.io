@@ -14,7 +14,7 @@ My background spans real-time graphics, controllable 3D generation, physically b
 
 ## News
 
-* **[Sep. 2026]** **FTC-Seg: When Noise Meets Long-Tail** was accepted to **NeurIPS 2026 (Poster)**. I am the second author and corresponding author.
+* **[Sep. 2026]** **FTC-Seg: When Noise Meets Long-Tail** was accepted to **NeurIPS 2026**.
 * **[Jul. 2026]** Joined **CUHK-Shenzhen** as a Research Assistant.
 * **[2026]** Two first-author manuscripts are under review.
 * **[2026]** **SIE3D** was published at **IEEE ICASSP 2026**.
@@ -43,7 +43,7 @@ My long-term direction includes **world-action models** that jointly predict fut
 
 ### When Noise Meets Long-Tail: Feature-Threshold Dual Calibration for Robust Pseudo-Labeling
 
-**NeurIPS 2026 (Poster) - Second Author, Corresponding Author**
+**NeurIPS 2026 - Second Author, Corresponding Author**
 
 FTC-Seg jointly calibrates pixel-level features and class-specific pseudo-label thresholds to improve semantic segmentation when imaging noise and long-tailed class distributions occur together. Evaluated on four public benchmarks spanning sonar, underwater, and adverse-weather imagery, the work contributes robust semantic perception under sensor and distribution shifts.
 
