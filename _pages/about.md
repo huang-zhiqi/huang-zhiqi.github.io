@@ -14,7 +14,7 @@ My background spans real-time graphics, controllable 3D generation, physically b
 
 ## News
 
-* **[Sep. 2026]** **FTC-Seg: When Noise Meets Long-Tail** was accepted to **NeurIPS 2026**.
+* **[Sep. 2026]** **FTC-Seg** was accepted to **NeurIPS 2026**.
 * **[Jul. 2026]** Joined **CUHK-Shenzhen** as a Research Assistant.
 * **[Jul. 2026]** Two first-author manuscripts are under review.
 * **[Jan. 2026]** **SIE3D** was accepted to **ICASSP 2026**.
