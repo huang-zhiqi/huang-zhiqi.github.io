@@ -14,8 +14,9 @@ My background spans real-time graphics, controllable 3D generation, physically b
 
 ## News
 
+* **[Sep. 2026]** **FTC-Seg: When Noise Meets Long-Tail** was accepted to **NeurIPS 2026 (Poster)**. I am the second author and corresponding author.
 * **[Jul. 2026]** Joined **CUHK-Shenzhen** as a Research Assistant.
-* **[2026]** Three manuscripts are under review, including two first-author works.
+* **[2026]** Two first-author manuscripts are under review.
 * **[2026]** **SIE3D** was published at **IEEE ICASSP 2026**.
 
 ---
@@ -40,6 +41,12 @@ My long-term direction includes **world-action models** that jointly predict fut
 
 ## Publications
 
+### When Noise Meets Long-Tail: Feature-Threshold Dual Calibration for Robust Pseudo-Labeling
+
+**NeurIPS 2026 (Poster) - Second Author, Corresponding Author**
+
+FTC-Seg jointly calibrates pixel-level features and class-specific pseudo-label thresholds to improve semantic segmentation when imaging noise and long-tailed class distributions occur together. Evaluated on four public benchmarks spanning sonar, underwater, and adverse-weather imagery, the work contributes robust semantic perception under sensor and distribution shifts.
+
 ### SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss
 
 **IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
@@ -56,7 +63,6 @@ SIE3D generates an editable 3D Gaussian head avatar from one image, preserves id
 
 * **Controllable PBR material generation from long-form descriptions** - *First author; manuscript under review.* Generates geometry-aligned, relightable albedo, roughness, and metallic channels from detailed material specifications. The work develops structured appearance representations for relighting and controllable visual simulation.
 * **Deform-then-edit forecasting for longitudinal 3D CT** - *First author; manuscript under review.* Forecasts localized volumetric change and preserves stable anatomy. Its deform-then-edit transition model separates coherent transport from localized residual change. This structured transition view motivates my work on action-conditioned world simulation.
-* **Robust pseudo-labeling under imaging noise and long-tailed data** - *Second author and corresponding author; manuscript under review.* Develops feature-threshold dual calibration for rare-class semantic segmentation across sonar, underwater, and adverse-weather imagery. The work contributes robust semantic perception for simulation-ready world representations under sensor and distribution shifts.
 
 ---
 
