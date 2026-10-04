@@ -97,15 +97,17 @@ Research interests focus on **robotic manipulation of deformable objects**, part
 
 **Research Assistant** - *2024 - 2025*
 
+Researched **controllable 3D representations and relightable material generation**, using visual and semantic cues to model object structure and surface appearance. This work supports my interest in representing deformable-object geometry and appearance for robot perception and visual simulation.
+
 ### 4399 Games
 
 **Graphics Engineer / Senior Graphics Engineer** - *2021 - 2024*
 
-My work on game-engine rendering gave me experience with the **assets, materials, and image-generation systems underlying visual simulation**. I aim to apply this engineering background to constructing controllable visual environments for learning and evaluating perception in cloth manipulation.
+I aim to apply my experience in **real-time graphics and material systems** to visual simulation for cloth manipulation, studying how appearance and lighting changes affect a robot's perception of shape, folds, and graspable regions.
 
-* **Scene appearance and rendering:** Built the cross-platform rendering pipeline for *Era of Conquest*, including shaders and physically based materials that determine how 3D scenes appear in rendered images.
-* **Reusable and efficient systems:** Developed asset, material, and rendering pipelines across mobile, PC, and web platforms, with an emphasis on real-time execution and mobile performance.
-* **Technical leadership:** Promoted to Senior Graphics Engineer in 2023; led a rendering team of 3-5 engineers and owned the rendering roadmap for mobile and PC.
+* **Material appearance:** Developed shaders and physically based materials for *Era of Conquest*, building experience relevant to modeling the visual appearance of cloth and garments.
+* **Efficient visual environments:** Built cross-platform rendering and reusable asset pipelines for mobile, PC, and web, developing the systems experience needed to generate visual observations efficiently in simulation.
+* **Engineering leadership:** Promoted to Senior Graphics Engineer in 2023; led a rendering team of 3-5 engineers and coordinated the rendering roadmap across mobile and PC.
 
 ---
 
