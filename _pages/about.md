@@ -45,8 +45,6 @@ For tasks such as folding, unfolding, and placement, I aim to evaluate these ide
 
 My earlier work develops methods for perception and controllable 3D modeling. Together with the research outlined below, it provides the foundation I aim to extend to robotic interaction with deformable objects.
 
-<sup>*</sup> Corresponding author
-
 ### When Noise Meets Long-Tail: Feature-Threshold Dual Calibration for Robust Pseudo-Labeling
 
 **NeurIPS 2026 - Second Author, Corresponding Author**<br>
@@ -124,7 +122,7 @@ I aim to apply my experience in **real-time graphics and material systems** to v
 
 ## Honors and Scholarships
 
-* Waseda University Partial Tuition-Waiver Scholarship for Privately Financed International Students, 2026-2027 (recognizing outstanding academic performance)
+* Partial Tuition-Waiver Scholarship for Privately Financed International Students, Waseda University, 2026-2027 (recognizing outstanding academic performance)
 * Outstanding Student Scholarship, Sun Yat-sen University, 2018-2019
 
 ## Languages
