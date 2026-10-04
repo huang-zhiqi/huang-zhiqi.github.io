@@ -116,4 +116,5 @@ SIE3D generates an editable 3D Gaussian head avatar from one image, preserves id
 
 * Chinese: Native (Mandarin and Cantonese)
 * English: Professional working proficiency (TOEFL iBT: 90)
-* Outstanding Student Scholarship (Third Prize), Sun Yat-sen University, 2018-2019
+* Waseda University Partial Tuition-Waiver Scholarship for Privately Financed International Students, Apr. 2026 - Mar. 2027 (recognizing outstanding academic performance)
+* Outstanding Student Scholarship, Sun Yat-sen University, 2018-2019
