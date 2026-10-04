@@ -41,9 +41,12 @@ My long-term direction includes **world-action models** that jointly predict fut
 
 ## Publications
 
+<sup>*</sup> Corresponding author
+
 ### When Noise Meets Long-Tail: Feature-Threshold Dual Calibration for Robust Pseudo-Labeling
 
-**NeurIPS 2026 - Second Author, Corresponding Author**
+**NeurIPS 2026 - Second Author, Corresponding Author**<br>
+Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 
 FTC-Seg jointly calibrates pixel-level features and class-specific pseudo-label thresholds to improve semantic segmentation when imaging noise and long-tailed class distributions occur together. Evaluated on four public benchmarks spanning sonar, underwater, and adverse-weather imagery, the work contributes robust semantic perception under sensor and distribution shifts.
 
@@ -53,7 +56,7 @@ FTC-Seg jointly calibrates pixel-level features and class-specific pseudo-label 
 ### SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss
 
 **IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
-**Zhiqi Huang**, Dulongkai Cui, Jinglu Hu
+**Zhiqi Huang**<sup>*</sup>, Dulongkai Cui, Jinglu Hu
 
 SIE3D generates an editable 3D Gaussian head avatar from one image, preserves identity, and supports language-level control over expressions and accessories. The work established my foundation in multimodal conditioning, structured 3D representations, and invariant-preserving editing.
 
