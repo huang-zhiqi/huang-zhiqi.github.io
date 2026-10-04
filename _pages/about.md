@@ -1,16 +1,18 @@
 ---
 permalink: /
 title: "Zhiqi Huang"
-excerpt: "Modeling and simulation, with research interests in deformable object manipulation and sim-to-real transfer"
+excerpt: "Research interests in robotic manipulation of deformable objects, with an emphasis on modeling, simulation, and sim-to-real transfer"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. My research spans **3D modeling, visual learning, and simulation**, and my current interests center on **deformable object manipulation and sim-to-real transfer**. I aim to understand how models of appearance, geometry, and physical interaction can help robots learn in simulation and adapt with limited real-world data.
+My current research interests focus on **robotic manipulation of deformable objects**, particularly cloth and garments. I want to understand how robots can infer an object's state, predict how it will deform under an action, and adapt when real materials behave differently from those in simulation. I approach these questions through **modeling and simulation for robot learning**, with an emphasis on **sim-to-real transfer**.
 
-My background combines **real-time graphics and physically based rendering (PBR)** at **4399 Games** with research on controllable 3D generation, material appearance, geometric change, and robust perception. These projects address complementary questions about **controllability, structural consistency, and learning from limited supervision**. These experiences motivate my interest in connecting visual and geometric models with the physical behavior needed for reliable robot manipulation.
+I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**.
+
+My path toward robotics builds on experience in both **virtual environments and visual learning**. At **4399 Games**, I developed real-time rendering and material pipelines, gaining experience with the visual components that determine what a simulated camera observes. My subsequent research has explored controllable 3D representations, prediction of geometric change, and perception with limited supervision. I aim to bring these foundations together to study how robots can perceive and manipulate flexible objects using experience from simulation.
 
 ## News
 
@@ -23,23 +25,25 @@ My background combines **real-time graphics and physically based rendering (PBR)
 
 ## Research Interests
 
-### Modeling and Simulation for Robot Learning
+### Robotic Manipulation of Deformable Objects
 
-My central question is: **what should we model, and how accurately, for simulated experience to transfer to real-world manipulation?**
+My central question is: **what must a robot model about a deformable object to manipulate it reliably, and which simulation errors most affect transfer to reality?**
 
-I am interested in three connected directions, with cloth and garment manipulation as motivating examples:
+For cloth and garment manipulation, I am particularly interested in three connected problems:
 
-* **Controllable visual simulation and task-relevant perception.** I am interested in how controlled changes in appearance and illumination affect visual understanding, and how to recover useful object states despite those changes. My work on semantic control, material generation, and segmentation with limited labels motivates an interest in representations that remain reliable across visual domain differences.
+* **Perceiving deformable-object state.** A robot needs to recover useful information about shape, folds, and graspable regions from partial and noisy observations. I am interested in 3D representations that preserve these task-relevant features across changes in texture, lighting, and viewpoint, and in how controlled visual simulation can support learning with limited real-world labels.
 
-* **Structured dynamics models and simulation calibration.** Building on my work in temporal 3D modeling, I am interested in models that account for robot actions, contact, and material properties. I want to explore how physical simulation and learned corrections can be combined, using observed interaction histories to identify and compensate for errors that affect manipulation.
+* **Predicting deformation and calibrating simulation.** I want to study how object geometry, material properties, contact, and robot actions jointly determine deformation. My interests include learning from interaction history, identifying uncertain physical parameters, and combining physical simulation with learned corrections. The aim is to understand which differences between simulated and real cloth behavior matter for manipulation.
 
-* **Data-efficient adaptation across simulation and reality.** I aim to use simulated experience to reduce the real data needed for policy learning and adaptation. My interests include identifying material and contact parameters from observations, using interaction history to adapt to unfamiliar objects, and selecting informative probing actions. I also want to distinguish the effects of visual and dynamics mismatches, so that limited real-world data can address the errors most consequential for a task.
+* **Transferring manipulation skills to real objects.** I am interested in how policies trained in simulation can adapt to unfamiliar fabrics, object configurations, and contact conditions using limited real interaction. This includes separating visual and dynamics mismatches, selecting informative probing actions, and using observed failures to guide changes to the model or policy.
 
-I aim to study these questions through their implications for **real-world task success, generalization, and the amount of real data required**, with particular interest in which modeling errors matter most for manipulation.
+For tasks such as folding, unfolding, and placement, I aim to evaluate these ideas through **manipulation success, generalization across objects, and the amount of real data required**.
 
 ---
 
 ## Publications
+
+My earlier work develops methods for perception and controllable 3D modeling. Together with the research outlined below, it provides the foundation I aim to extend to robotic interaction with deformable objects.
 
 <sup>*</sup> Corresponding author
 
@@ -48,7 +52,7 @@ I aim to study these questions through their implications for **real-world task 
 **NeurIPS 2026 - Second Author, Corresponding Author**<br>
 Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 
-**Reliable perception with limited supervision.** FTC-Seg combines residual feature refinement with class-adaptive pseudo-label thresholds to address imaging noise and long-tailed class distributions in semi-supervised segmentation. Experiments on sonar, underwater, and adverse-weather imagery examine how to retain useful spatial information and learn underrepresented classes. This work informs my interest in adapting visual perception with limited labeled real-world observations.
+**Perception from imperfect observations.** FTC-Seg studies semi-supervised segmentation under imaging noise and long-tailed class distributions, combining residual feature refinement with class-adaptive pseudo-label thresholds. Experiments on sonar, underwater, and adverse-weather imagery examine how to retain useful spatial information and learn underrepresented classes. This provides experience in learning reliable visual structure when labeled observations are scarce, a challenge I am interested in addressing for deformable-object perception.
 
 <a class="pub-link" href="https://arxiv.org/abs/2609.33668">arXiv</a>
 <a class="pub-link" href="https://github.com/pingggg516/FTC-Seg">Code</a>
@@ -58,7 +62,7 @@ Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 **IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
 **Zhiqi Huang**<sup>*</sup>, Dulongkai Cui, Jinglu Hu
 
-**Task-aware, controllable 3D modeling.** SIE3D generates expressive 3D head avatars from a single image and descriptive text. Semantic conditioning and an expression-aware loss guide the requested attributes while balancing expression control with identity preservation. This work motivates my interest in using task-relevant semantic constraints to guide 3D modeling, including how accurately a model represents the states and features needed for interaction.
+**Controllable 3D representations.** SIE3D generates expressive 3D head avatars from a single image and descriptive text. Semantic conditioning and an expression-aware loss guide the requested attributes while balancing expression control with identity preservation. It develops my experience in using semantic constraints to guide 3D modeling, motivating a question for manipulation: how can a representation preserve the object features needed to interpret its state and choose an action?
 
 <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a>
 <a class="pub-link" href="https://doi.org/10.1109/ICASSP55912.2026.11462135">IEEE Xplore</a>
@@ -71,13 +75,13 @@ Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 
 **First Author - Manuscript Under Review**
 
-Research on text-guided generation of relightable 3D materials, focusing on how detailed descriptions guide surface appearance. This work informs my interest in controllable visual models and the effects of appearance variation in simulation.
+Research on text-guided generation of relightable 3D materials. This provides a basis for my interest in varying simulated appearance while keeping object geometry fixed, and studying how such variation affects visual perception for manipulation.
 
 ### Temporal Modeling of 3D Medical Images
 
 **First Author - Manuscript Under Review**
 
-Research on forecasting structural and appearance changes from longitudinal 3D medical images. This work explores how observed history can guide predictions of future change, providing methodological background for my interest in deformable-object state prediction.
+Research on forecasting structural and appearance changes from longitudinal 3D medical images. This develops experience in using observation history to model geometric change, which I aim to extend toward predicting deformation under robot actions.
 
 ---
 
@@ -87,7 +91,7 @@ Research on forecasting structural and appearance changes from longitudinal 3D m
 
 **Research Assistant** - *Jul. 2026 - Present*
 
-Research interests: modeling and simulation for deformable object manipulation and sim-to-real transfer.
+Research interests focus on **robotic manipulation of deformable objects**, particularly how modeling and simulation can support state estimation, prediction of deformation, and transfer to real-world interaction.
 
 ### Waseda University
 
@@ -97,9 +101,11 @@ Research interests: modeling and simulation for deformable object manipulation a
 
 **Graphics Engineer / Senior Graphics Engineer** - *2021 - 2024*
 
-* Built and optimized the cross-platform rendering pipeline for *Era of Conquest*, including shaders, PBR materials, and mobile performance.
-* Promoted to Senior Graphics Engineer in 2023; led a rendering team of 3-5 engineers and owned the rendering roadmap for mobile and PC.
-* Developed reusable asset, material, and rendering pipelines across mobile, PC, and web platforms, building the graphics and systems foundation for my research interests in modeling and simulation.
+My work on game-engine rendering gave me experience with the **assets, materials, and image-generation systems underlying visual simulation**. I aim to apply this engineering background to constructing controllable visual environments for learning and evaluating perception in cloth manipulation.
+
+* **Scene appearance and rendering:** Built the cross-platform rendering pipeline for *Era of Conquest*, including shaders and physically based materials that determine how 3D scenes appear in rendered images.
+* **Reusable and efficient systems:** Developed asset, material, and rendering pipelines across mobile, PC, and web platforms, with an emphasis on real-time execution and mobile performance.
+* **Technical leadership:** Promoted to Senior Graphics Engineer in 2023; led a rendering team of 3-5 engineers and owned the rendering roadmap for mobile and PC.
 
 ---
 
