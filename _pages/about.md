@@ -116,7 +116,7 @@ Research interests: modeling and simulation for deformable object manipulation a
 
 ## Honors and Scholarships
 
-* Waseda University Partial Tuition-Waiver Scholarship for Privately Financed International Students, Apr. 2026 - Mar. 2027 (recognizing outstanding academic performance)
+* Waseda University Partial Tuition-Waiver Scholarship for Privately Financed International Students, 2026-2027 (recognizing outstanding academic performance)
 * Outstanding Student Scholarship, Sun Yat-sen University, 2018-2019
 
 ## Languages
