@@ -47,6 +47,9 @@ My long-term direction includes **world-action models** that jointly predict fut
 
 FTC-Seg jointly calibrates pixel-level features and class-specific pseudo-label thresholds to improve semantic segmentation when imaging noise and long-tailed class distributions occur together. Evaluated on four public benchmarks spanning sonar, underwater, and adverse-weather imagery, the work contributes robust semantic perception under sensor and distribution shifts.
 
+<a class="pub-link" href="https://arxiv.org/abs/2609.33668">arXiv</a>
+<a class="pub-link" href="https://github.com/pingggg516/FTC-Seg">Code</a>
+
 ### SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss
 
 **IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
