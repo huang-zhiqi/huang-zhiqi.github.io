@@ -80,6 +80,10 @@ SIE3D generates an editable 3D Gaussian head avatar from one image, preserves id
 
 * Current focus: simulation-ready world representations and action-conditioned world simulation for robotic manipulation.
 
+### Waseda University
+
+**Research Assistant** - *2024 - 2025*
+
 ### 4399 Games
 
 **Graphics Engineer / Senior Graphics Engineer** - *2021 - 2024*
