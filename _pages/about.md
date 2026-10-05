@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. My research interests center on **simulation**, from building controllable virtual representations to connecting simulated experience with the physical world.
+I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. My research interests center on **data-driven simulation**: building digital representations from observations, modeling their appearance and evolution, and connecting simulated experience with the physical world.
 
-My background spans **graphics engines and efficient rendering, digital avatars, physically based materials, prediction of 3D change, and robust visual perception**. I view these as complementary components of simulation: what is represented, how it appears, how it changes, and how its observations are interpreted. My earlier work develops the visual, predictive, and computational foundations of this perspective.
+My work covers **human appearance, surface reflectance, and temporal 3D structure**, together with the rendering systems and perception methods used to generate and interpret visual observations. My engineering experience includes graphics engines, material systems, and efficient execution of interactive 3D environments.
 
-I am now interested in extending this work toward **deformable object simulation and sim-to-real transfer**, particularly for robotic manipulation of cloth and garments. My goal is to make simulation useful for real-world interaction: using virtual experience to support learning, and real observations and interactions to identify and correct simulation errors. This connects my background in virtual representations with the physical behavior and adaptation required on real robots.
+My current research direction is **deformable object simulation and sim-to-real transfer**, particularly for robotic manipulation of cloth and garments. I aim to use simulation to support robot learning and real observations and interactions to calibrate simulated appearance and dynamics, with the goal of transferring manipulation skills to physical robots.
 
 ## News
 
@@ -29,11 +29,11 @@ I am now interested in extending this work toward **deformable object simulation
 
 My central interest is **how to build simulations that are controllable, predictive, and useful beyond the virtual environment**. I approach this through three connected directions:
 
-* **Visual simulation and controllable assets.** Representing geometry, digital characters, surface reflectance, lighting, and cameras to generate useful visual observations. My work in graphics, avatar generation, and material modeling motivates an interest in editable virtual assets and efficient rendering, with controlled variation of appearance and viewing conditions.
+* **Appearance simulation.** Controllable digital avatars, physically based surface reflectance, and efficient rendering of 3D environments. The focus is on representing geometry, materials, illumination, and viewpoint so that visual conditions can be varied explicitly.
 
-* **Predictive models of change.** Using observed history and structural constraints to predict how an object evolves. Building on my work in temporal 3D prediction, I am interested in combining physical simulation with learned models, extending from observed geometric change to deformation caused by actions, contact, and material response.
+* **Deformation and temporal change.** Models of structural and appearance changes from observed history, and physical simulation of deformation, contact, and material response. My current interests include combining physical models with learned corrections for action-conditioned prediction.
 
-* **Observation fidelity and reliable perception.** Understanding how rendering, sensing, noise, and data coverage affect what a learning system extracts from simulated and real observations. My work on robust segmentation motivates an interest in this interface between simulation and perception, including learning with limited labels and diagnosing visual domain gaps.
+* **From data to simulation.** Extracting semantic information from noisy and sparsely labeled observations, estimating object geometry, and constructing digital representations. My interests include reducing annotation effort and the amount of real data needed to build and calibrate simulations.
 
 ### Current Direction: From Simulation to Real-World Manipulation
 
@@ -45,14 +45,12 @@ I aim to study a two-way connection between simulation and reality: simulated ex
 
 ## Publications
 
-These studies contribute different ingredients to my simulation-oriented research: controllable digital assets, physically based appearance, models of geometric change, and reliable interpretation of visual observations. They provide complementary methods that I now aim to connect with physical simulation and real-world interaction.
-
 ### When Noise Meets Long-Tail: Feature-Threshold Dual Calibration for Robust Pseudo-Labeling
 
 **NeurIPS 2026 - Second Author, Corresponding Author**<br>
 Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 
-**Reliable perception under imperfect observation conditions.** FTC-Seg studies semi-supervised image segmentation under imaging noise and long-tailed class distributions, combining residual feature refinement with class-adaptive pseudo-label thresholds. Evaluated on sonar, underwater, and adverse-weather imagery, it addresses reliable learning from limited and uneven supervision. This motivates my interest in how simulated observations can support perception that remains useful under real-world noise and visual variation.
+**Label-efficient semantic segmentation.** FTC-Seg extracts pixel-level semantic structure from noisy images using limited labeled data and additional unlabeled observations. Residual feature refinement and class-adaptive pseudo-label thresholds improve learning under long-tailed class distributions, with evaluation on sonar, underwater, and adverse-weather imagery.
 
 <a class="pub-link" href="https://arxiv.org/abs/2609.33668">arXiv</a>
 <a class="pub-link" href="https://github.com/pingggg516/FTC-Seg">Code</a>
@@ -62,7 +60,7 @@ Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 **IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
 **Zhiqi Huang**<sup>*</sup>, Dulongkai Cui, Jinglu Hu
 
-**Digital avatars for visual simulation.** SIE3D generates expressive 3D head avatars from a single image and descriptive text. Semantic conditioning and an expression-aware loss balance control over expression and appearance with identity preservation. The resulting digital representations model human appearance and can be rendered from different viewpoints, contributing to the controllable character and asset side of visual simulation.
+**Human appearance simulation.** SIE3D generates controllable 3D head avatars from a single image and descriptive text. Semantic conditioning and an expression-aware loss balance expression and appearance control with identity preservation, producing digital heads that can be rendered from different viewpoints.
 
 <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a>
 <a class="pub-link" href="https://doi.org/10.1109/ICASSP55912.2026.11462135">IEEE Xplore</a>
@@ -75,13 +73,13 @@ Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 
 **First Author - Manuscript Under Review**
 
-**Surface reflectance for visual simulation.** Research on translating detailed material descriptions into controllable, relightable 3D appearance. This addresses the optical side of simulation: representing how surface properties respond to light so that the same asset can be rendered under different viewing and illumination conditions.
+**Surface reflectance simulation.** Text-guided generation of physically based material appearance, representing how surfaces respond to light. The generated materials support rendering the same 3D asset under different viewpoints and illumination conditions.
 
 ### Temporal Modeling of 3D Medical Images
 
 **First Author - Manuscript Under Review**
 
-**Data-driven models of 3D evolution.** Research on forecasting structural and appearance changes from longitudinal 3D medical images, using observation history and structural consistency to guide prediction. It motivates my interest in predictive simulation: learning models of how a state evolves over time and, in future work, how such models can complement physical simulators.
+**Data-driven simulation of 3D lesion evolution.** Modeling changes in lesion shape and CT appearance from longitudinal observations, predicting future volumetric appearance and lesion geometry. The model uses observed history and structural constraints to represent how the lesion evolves over time.
 
 ---
 
@@ -97,13 +95,13 @@ Research interests in **deformable object simulation and sim-to-real transfer** 
 
 **Research Assistant** - *2024 - 2025*
 
-Researched **controllable digital avatars and physically based material appearance**, using visual and semantic cues to guide 3D generation. This work develops the asset and appearance components of visual simulation: how to represent a subject, vary its attributes, and render its surface under different conditions.
+Researched **digital human appearance and physically based materials**. Developed controllable 3D representations using visual and semantic cues, and generated relightable surface appearance from material descriptions.
 
 ### 4399 Games
 
 **Graphics Engineer / Senior Graphics Engineer** - *2021 - 2024*
 
-Built **graphics-engine rendering and material systems** for interactive 3D environments. This experience covers the visual and systems foundations of simulation: turning geometric assets and surface properties into images while making the underlying pipelines efficient, reusable, and deployable across platforms.
+Developed **graphics-engine rendering, material systems, and efficient 3D scene pipelines** for interactive virtual environments.
 
 * **Graphics and appearance:** Developed shaders, physically based materials, and the rendering pipeline for *Era of Conquest*.
 * **Efficient virtual environments:** Built reusable asset and rendering pipelines across mobile, PC, and web platforms, with an emphasis on real-time execution and mobile performance.
