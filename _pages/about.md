@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**.
+I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen** and an **M.Phil. student in Information Architecture at Waseda University**.
 
 My previous research and engineering work centered on **learning-based 3D simulation** and **simulation efficiency**. I am currently more focused on **sim-to-real transfer for deformable object manipulation**.
 
