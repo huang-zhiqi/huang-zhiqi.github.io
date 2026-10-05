@@ -36,7 +36,7 @@ My previous research and engineering work centered on **learning-based 3D simula
 **NeurIPS 2026 - Second Author, Corresponding Author**<br>
 Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 
-**Label-efficient semantic segmentation.** FTC-Seg extracts pixel-level semantic structure from noisy images using limited labeled data and additional unlabeled observations. Residual feature refinement and class-adaptive pseudo-label thresholds improve learning under long-tailed class distributions, with evaluation on sonar, underwater, and adverse-weather imagery.
+FTC-Seg improves **learning from limited supervision** by making better use of unlabeled observations. Residual feature refinement and class-adaptive pseudo-label thresholds address noise and class imbalance in semi-supervised semantic segmentation, reducing reliance on manual annotation.
 
 <a class="pub-link" href="https://arxiv.org/abs/2609.33668">arXiv</a>
 <a class="pub-link" href="https://github.com/pingggg516/FTC-Seg">Code</a>
@@ -46,7 +46,7 @@ Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 **IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
 **Zhiqi Huang**<sup>*</sup>, Dulongkai Cui, Jinglu Hu
 
-**Human appearance simulation.** SIE3D generates controllable 3D head avatars from a single image and descriptive text. Semantic conditioning and an expression-aware loss balance expression and appearance control with identity preservation, producing digital heads that can be rendered from different viewpoints.
+SIE3D learns **controllable 3D head representations from a single image**, using text to guide expression and appearance. Semantic conditioning and an expression-aware loss balance controllability with identity preservation, producing avatars that can be rendered from different viewpoints.
 
 <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a>
 <a class="pub-link" href="https://doi.org/10.1109/ICASSP55912.2026.11462135">IEEE Xplore</a>
@@ -59,13 +59,13 @@ Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 
 **First Author - Manuscript Under Review**
 
-**Surface reflectance simulation.** Text-guided generation of physically based material appearance, representing how surfaces respond to light. The generated materials support rendering the same 3D asset under different viewpoints and illumination conditions.
+This work learns **controllable, relightable surface representations** from geometry and language. The generated physically based materials capture how surfaces respond to illumination, allowing text-guided appearance control and consistent rendering across viewpoints and lighting conditions.
 
 ### Temporal Modeling of 3D Medical Images
 
 **First Author - Manuscript Under Review**
 
-**Data-driven simulation of 3D lesion evolution.** Modeling changes in lesion shape and CT appearance from longitudinal observations, predicting future volumetric appearance and lesion geometry. The model uses observed history and structural constraints to represent how the lesion evolves over time.
+This work learns **predictive models of 3D lesion evolution** from longitudinal CT observations. Observed history and structural constraints guide predictions of future lesion geometry and volumetric appearance, capturing temporal change while encouraging structural consistency.
 
 ---
 
