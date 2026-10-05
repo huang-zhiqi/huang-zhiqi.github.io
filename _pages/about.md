@@ -1,16 +1,14 @@
 ---
 permalink: /
 title: "Zhiqi Huang"
-excerpt: "Simulation of appearance and change, with current interests in deformable object manipulation and sim-to-real transfer"
+excerpt: "Learning-based and efficient 3D simulation, with current interests in deformable object manipulation and sim-to-real transfer"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. My research interests center on **data-driven simulation**: building digital representations from observations, modeling their appearance and evolution, and connecting simulated experience with the physical world.
-
-My work covers **human appearance, surface reflectance, and temporal 3D structure**, together with the rendering systems and perception methods used to generate and interpret visual observations. My engineering experience includes graphics engines, material systems, and efficient execution of interactive 3D environments.
+I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. My research focuses on **learning-based and efficient 3D simulation**.
 
 My current research direction is **deformable object simulation and sim-to-real transfer**, particularly for robotic manipulation of cloth and garments. I aim to use simulation to support robot learning and real observations and interactions to calibrate simulated appearance and dynamics, with the goal of transferring manipulation skills to physical robots.
 
@@ -25,21 +23,19 @@ My current research direction is **deformable object simulation and sim-to-real 
 
 ## Research Interests
 
-### Simulation: Appearance, Change, and Interaction
+### Learning-Based and Efficient Simulation
 
-My central interest is **how to build simulations that are controllable, predictive, and useful beyond the virtual environment**. I approach this through three connected directions:
+I study **how to build controllable, predictive simulations from observations, and how to reduce the data and computation needed to build and run them**. My interests span two connected directions:
 
-* **Appearance simulation.** Controllable digital avatars, physically based surface reflectance, and efficient rendering of 3D environments. The focus is on representing geometry, materials, illumination, and viewpoint so that visual conditions can be varied explicitly.
+* **Learning-based simulation.** Learning 3D appearance, geometry, and evolution from observations. I am interested in representations that support controllable generation and prediction, and in combining learned models with physical structure to capture deformation and interaction.
 
-* **Deformation and temporal change.** Models of structural and appearance changes from observed history, and physical simulation of deformation, contact, and material response. My current interests include combining physical models with learned corrections for action-conditioned prediction.
-
-* **From data to simulation.** Extracting semantic information from noisy and sparsely labeled observations, estimating object geometry, and constructing digital representations. My interests include reducing annotation effort and the amount of real data needed to build and calibrate simulations.
+* **Simulation efficiency.** Making simulations efficient to construct and run. My interests include learning useful representations from limited supervision and noisy observations, reducing the real data needed for modeling and calibration, and improving the computational efficiency of rendering and physics solvers.
 
 ### Current Direction: From Simulation to Real-World Manipulation
 
-Cloth and garment manipulation brings visual simulation, state representation, and dynamics into the same problem. My current interests focus on **deformable object simulation**, including the effects of material properties, friction, contact, and robot actions, and on how differences between simulated and real behavior affect manipulation.
+I am currently exploring these questions in **robotic manipulation of deformable objects**, particularly cloth and garments: how to model their appearance and deformation, simulate their interaction with robots, and adapt simulated models with limited real-world data.
 
-I aim to study a two-way connection between simulation and reality: simulated experience supports learning to grasp, unfold, and fold, while real observations and probing interactions guide simulation calibration and policy adaptation. I am particularly interested in achieving this with limited real data, evaluating progress through **real-world task success, generalization across objects, and the amount of interaction required**.
+I am interested in a **two-way connection between simulation and reality**: simulated experience supports learning manipulation skills, while real observations and interactions improve the simulation and guide policy adaptation.
 
 ---
 
@@ -95,16 +91,16 @@ Research interests in **deformable object simulation and sim-to-real transfer** 
 
 **Research Assistant** - *2024 - 2025*
 
-Researched **digital human appearance and physically based materials**. Developed controllable 3D representations using visual and semantic cues, and generated relightable surface appearance from material descriptions.
+Researched **learning-based 3D appearance simulation**, developing controllable head avatars and relightable materials from visual and semantic inputs.
 
 ### 4399 Games
 
 **Graphics Engineer / Senior Graphics Engineer** - *2021 - 2024*
 
-Developed **graphics-engine rendering, material systems, and efficient 3D scene pipelines** for interactive virtual environments.
+Developed rendering and material systems and optimized runtime performance in a **real-time 3D graphics and simulation engine** for interactive virtual environments.
 
 * **Graphics and appearance:** Developed shaders, physically based materials, and the rendering pipeline for *Era of Conquest*.
-* **Efficient virtual environments:** Built reusable asset and rendering pipelines across mobile, PC, and web platforms, with an emphasis on real-time execution and mobile performance.
+* **Simulation efficiency:** Optimized physics solvers and runtime performance for real-time simulation. Built reusable asset and rendering pipelines across mobile, PC, and web platforms, with an emphasis on mobile performance.
 * **Engineering leadership:** Promoted to Senior Graphics Engineer in 2023; led a rendering team of 3-5 engineers and coordinated the rendering roadmap across mobile and PC.
 
 ---
