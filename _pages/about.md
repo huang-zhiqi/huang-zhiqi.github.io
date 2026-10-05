@@ -87,10 +87,10 @@ Researched **learning-based 3D appearance simulation**, developing controllable 
 
 **Graphics Engineer / Senior Graphics Engineer** - *2021 - 2024*
 
-Developed rendering and material systems and optimized runtime performance in a **real-time 3D graphics and simulation engine** for interactive virtual environments.
+Worked on **building and running 3D simulations efficiently**, with a focus on physically based appearance and reducing computational cost.
 
-* **Graphics and appearance:** Developed shaders, physically based materials, and the rendering pipeline for *Era of Conquest*.
-* **Simulation efficiency:** Optimized physics solvers and runtime performance for real-time simulation. Built reusable asset and rendering pipelines across mobile, PC, and web platforms, with an emphasis on mobile performance.
+* **Appearance simulation:** Developed shaders and physically based material systems for *Era of Conquest*, alongside reusable asset and rendering pipelines across mobile, PC, and web.
+* **Computational efficiency:** Optimized rendering, physics solvers, and simulation engine runtime for real-time execution, with an emphasis on mobile performance.
 * **Engineering leadership:** Promoted to Senior Graphics Engineer in 2023; led a rendering team of 3-5 engineers and coordinated the rendering roadmap across mobile and PC.
 
 ---
