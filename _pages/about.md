@@ -43,7 +43,7 @@ FTC-Seg improves **learning from limited supervision** by making better use of u
 
 ### SIE3D: Single-Image Expressive 3D Avatar Generation via Semantic Embedding and Perceptual Expression Loss
 
-**IEEE ICASSP 2026 - First Author, Corresponding Author**<br>
+**ICASSP 2026 - First Author, Corresponding Author**<br>
 **Zhiqi Huang**<sup>*</sup>, Dulongkai Cui, Jinglu Hu
 
 SIE3D learns **controllable 3D head representations from a single image**, using text to guide expression and appearance. Semantic conditioning and an expression-aware loss balance controllability with identity preservation, producing avatars that can be rendered from different viewpoints.
