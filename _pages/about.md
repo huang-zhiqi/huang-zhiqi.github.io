@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**. My research focuses on **learning-based and efficient 3D simulation**.
+I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)** and an **M.Phil. student in Information Architecture at Waseda University**.
 
-My current research direction is **deformable object simulation and sim-to-real transfer**, particularly for robotic manipulation of cloth and garments. I aim to use simulation to support robot learning and real observations and interactions to calibrate simulated appearance and dynamics, with the goal of transferring manipulation skills to physical robots.
+My previous research and engineering work centered on **learning-based 3D simulation** and **simulation efficiency**. I am currently more focused on **sim-to-real transfer for deformable object manipulation**.
 
 ## News
 
@@ -23,19 +23,9 @@ My current research direction is **deformable object simulation and sim-to-real 
 
 ## Research Interests
 
-### Learning-Based and Efficient Simulation
-
-I study **how to build controllable, predictive simulations from observations, and how to reduce the data and computation needed to build and run them**. My interests span two connected directions:
-
-* **Learning-based simulation.** Learning 3D appearance, geometry, and evolution from observations. I am interested in representations that support controllable generation and prediction, and in combining learned models with physical structure to capture deformation and interaction.
-
-* **Simulation efficiency.** Making simulations efficient to construct and run. My interests include learning useful representations from limited supervision and noisy observations, reducing the real data needed for modeling and calibration, and improving the computational efficiency of rendering and physics solvers.
-
-### Current Direction: From Simulation to Real-World Manipulation
-
-I am currently exploring these questions in **robotic manipulation of deformable objects**, particularly cloth and garments: how to model their appearance and deformation, simulate their interaction with robots, and adapt simulated models with limited real-world data.
-
-I am interested in a **two-way connection between simulation and reality**: simulated experience supports learning manipulation skills, while real observations and interactions improve the simulation and guide policy adaptation.
+* **Learning-based simulation:** How can we learn controllable and predictive 3D simulations from observations?
+* **Simulation efficiency:** How can we reduce the data and computation needed to build, run, and adapt simulations?
+* **Sim-to-real transfer:** How can we narrow the sim-to-real gap and reliably transfer manipulation skills learned in simulation to physical robots?
 
 ---
 
