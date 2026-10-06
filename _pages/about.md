@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Zhiqi Huang"
-excerpt: "Learning-based and efficient 3D simulation, with current interests in embodied AI and sim-to-real transfer for deformable object manipulation"
+excerpt: "Learning-based and efficient 3D simulation, with current interests in simulation-driven embodied AI for deformable object manipulation"
 author_profile: true
 redirect_from:
   - /about/
@@ -10,7 +10,7 @@ redirect_from:
 
 I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen** and an **M.Phil. student in Information Architecture at Waseda University**.
 
-My previous research and engineering work centered on **learning-based 3D simulation** and **simulation efficiency**. I am currently more focused on **embodied AI**, particularly **sim-to-real transfer for deformable object manipulation**.
+My previous research and engineering work centered on **learning-based 3D simulation** and **simulation efficiency**. I am currently more focused on **simulation-driven embodied AI**, particularly **deformable object manipulation**.
 
 ## News
 
@@ -25,7 +25,7 @@ My previous research and engineering work centered on **learning-based 3D simula
 
 * **Learning-based simulation:** How can we learn controllable and predictive 3D simulations from observations?
 * **Simulation efficiency:** How can we reduce the data and computation needed to build, run, and adapt simulations?
-* **Sim-to-real transfer:** How can we narrow the sim-to-real gap and reliably transfer manipulation skills learned in simulation to physical robots?
+* **Simulation-driven embodied AI:** How can we narrow the gap between simulation and reality so that manipulation skills learned in simulation work reliably on physical robots?
 
 ---
 
@@ -75,7 +75,7 @@ This work learns **predictive models of 3D lesion evolution** from longitudinal 
 
 **Research Assistant** - *Jul. 2026 - Present*
 
-Research interests in **deformable object simulation and sim-to-real transfer** for cloth and garment manipulation, with an emphasis on using real observations and interactions to calibrate simulation and support adaptation on physical robots.
+Research interests in **simulation-driven embodied AI** for deformable object manipulation, connecting learning in simulation with adaptation through real-world observations and interactions.
 
 ### Waseda University
 
