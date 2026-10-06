@@ -10,7 +10,7 @@ redirect_from:
 
 I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen** and an **M.Phil. student in Information Architecture at Waseda University**.
 
-My previous research and engineering work centered on **neural simulation** and **scalable simulation**. I am currently more focused on **simulation-driven embodied AI**, particularly **deformable object manipulation**.
+My earlier research and engineering work centered on **neural simulation** and **scalable simulation**. I now focus more on **simulation-driven embodied AI**, particularly **deformable object manipulation**.
 
 ## News
 
@@ -24,8 +24,8 @@ My previous research and engineering work centered on **neural simulation** and 
 ## Research Interests
 
 * **Neural Simulation:** How can we learn controllable and predictive 3D simulations from observations?
-* **Scalable Simulation:** How can we reduce the data and computation needed to build, run, and adapt simulations?
-* **Simulation-driven Embodied AI:** How can we narrow the gap between simulation and reality so that manipulation skills learned in simulation work reliably on physical robots?
+* **Scalable Simulation:** How can we build, run, and adapt simulations with less data and computation?
+* **Simulation-driven Embodied AI:** How can we bridge the gap between simulation and reality to turn simulated experience into reliable robot skills?
 
 ---
 
@@ -36,7 +36,7 @@ My previous research and engineering work centered on **neural simulation** and 
 **NeurIPS 2026 - Second Author, Corresponding Author**<br>
 Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 
-FTC-Seg reduces **reliance on manual annotation** by learning from limited labels and unlabeled observations. Residual feature refinement and class-adaptive pseudo-label thresholds improve semi-supervised semantic segmentation under noise and class imbalance.
+FTC-Seg tackles **data-efficient visual learning under noise and class imbalance**. Residual feature refinement and class-adaptive pseudo-label thresholds make better use of unlabeled observations for semi-supervised semantic segmentation, reducing reliance on manual annotation.
 
 <a class="pub-link" href="https://arxiv.org/abs/2609.33668">arXiv</a>
 <a class="pub-link" href="https://github.com/pingggg516/FTC-Seg">Code</a>
@@ -46,7 +46,7 @@ FTC-Seg reduces **reliance on manual annotation** by learning from limited label
 **ICASSP 2026 - First Author, Corresponding Author**<br>
 **Zhiqi Huang**<sup>*</sup>, Dulongkai Cui, Jinglu Hu
 
-SIE3D learns **controllable 3D head representations from a single image**, using text to guide expression and appearance. Semantic conditioning and an expression-aware loss balance controllability with identity preservation, producing avatars that can be rendered from different viewpoints.
+SIE3D generates **expressive, controllable 3D head avatars from a single image**. Text conditioning and an expression-aware loss balance identity preservation with appearance and expression control, supporting rendering from different viewpoints.
 
 <a class="pub-link" href="https://huang-zhiqi.github.io/SIE3D/">Project Page</a>
 <a class="pub-link" href="https://doi.org/10.1109/ICASSP55912.2026.11462135">IEEE Xplore</a>
@@ -59,13 +59,13 @@ SIE3D learns **controllable 3D head representations from a single image**, using
 
 **First Author - Manuscript Under Review**
 
-This work learns **controllable, relightable surface representations** from geometry and language. The generated physically based materials capture how surfaces respond to illumination, allowing text-guided appearance control and consistent rendering across viewpoints and lighting conditions.
+A neural model generates **controllable, relightable materials** from geometry and language. Explicit reflectance properties let the same 3D asset be rendered consistently across viewpoints and lighting conditions, with appearance controlled through text.
 
-### Temporal Modeling of 3D Medical Images
+### Predictive Modeling of 3D Medical Images
 
 **First Author - Manuscript Under Review**
 
-This work learns **predictive models of 3D lesion evolution** from longitudinal CT observations. Observed history and structural constraints guide predictions of future lesion geometry and volumetric appearance, capturing temporal change while encouraging structural consistency.
+A neural model **forecasts 3D lesion evolution** from longitudinal CT observations. Observed history and structural constraints guide predictions of future geometry and volumetric appearance, capturing temporal change while encouraging anatomical consistency.
 
 ---
 
@@ -75,22 +75,22 @@ This work learns **predictive models of 3D lesion evolution** from longitudinal 
 
 **Research Assistant** - *Jul. 2026 - Present*
 
-Research interests in **simulation-driven embodied AI** for deformable object manipulation, connecting learning in simulation with adaptation through real-world observations and interactions.
+Exploring **simulation-driven embodied AI** for deformable object manipulation, with an emphasis on learning from simulated experience and adapting through real-world interaction.
 
 ### Waseda University
 
 **Research Assistant** - *2024 - 2025*
 
-Researched **neural models for 3D appearance simulation**, developing controllable head avatars and relightable materials from visual and semantic inputs.
+Developed **neural methods for 3D appearance simulation**, generating controllable head avatars and relightable materials from visual and semantic inputs.
 
 ### 4399 Games
 
 **Graphics Engineer / Senior Graphics Engineer** - *2021 - 2024*
 
-Focused on **making 3D simulation more scalable**, through reusable asset and rendering pipelines and optimization of physics solvers and engine runtime.
+Focused on **scalable 3D simulation**, improving computational efficiency and building reusable pipelines across platforms.
 
 * **Appearance simulation:** Developed shaders and physically based material systems for *Era of Conquest*, alongside reusable asset and rendering pipelines across mobile, PC, and web.
-* **Computational efficiency:** Optimized rendering, physics solvers, and simulation engine runtime for real-time execution, with an emphasis on mobile performance.
+* **Computational efficiency:** Optimized rendering, physics solvers, and simulation engine runtime, with a focus on real-time performance on mobile devices.
 * **Engineering leadership:** Promoted to Senior Graphics Engineer in 2023; led a rendering team of 3-5 engineers and coordinated the rendering roadmap across mobile and PC.
 
 ---
