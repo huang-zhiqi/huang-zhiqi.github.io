@@ -23,8 +23,8 @@ My earlier research and engineering work centered on **neural simulation** and *
 
 ## Research Interests
 
-* **Neural Simulation:** How can we learn controllable and predictive 3D simulations from observations?
-* **Scalable Simulation:** How can we build, run, and adapt simulations with less data and computation?
+* **Neural Simulation:** How can neural models turn observations into controllable and predictive 3D simulations?
+* **Scalable Simulation:** How can we build, run, and adapt simulations at scale within limited data and compute budgets?
 * **Simulation-driven Embodied AI:** How can we bridge the gap between simulation and reality to turn simulated experience into reliable robot skills?
 
 ---
