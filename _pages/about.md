@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Zhiqi Huang"
-excerpt: "Learning-based and efficient 3D simulation, with current interests in deformable object manipulation and sim-to-real transfer"
+excerpt: "Learning-based and efficient 3D simulation, with current interests in embodied AI and sim-to-real transfer for deformable object manipulation"
 author_profile: true
 redirect_from:
   - /about/
@@ -10,7 +10,7 @@ redirect_from:
 
 I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen** and an **M.Phil. student in Information Architecture at Waseda University**.
 
-My previous research and engineering work centered on **learning-based 3D simulation** and **simulation efficiency**. I am currently more focused on **sim-to-real transfer for deformable object manipulation**.
+My previous research and engineering work centered on **learning-based 3D simulation** and **simulation efficiency**. I am currently more focused on **embodied AI**, particularly **sim-to-real transfer for deformable object manipulation**.
 
 ## News
 
