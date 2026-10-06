@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Zhiqi Huang"
-excerpt: "Learning-based and efficient 3D simulation, with current interests in simulation-driven embodied AI for deformable object manipulation"
+excerpt: "Neural simulation and scalable simulation, with current interests in simulation-driven embodied AI for deformable object manipulation"
 author_profile: true
 redirect_from:
   - /about/
@@ -10,7 +10,7 @@ redirect_from:
 
 I am a **Research Assistant at The Chinese University of Hong Kong, Shenzhen** and an **M.Phil. student in Information Architecture at Waseda University**.
 
-My previous research and engineering work centered on **learning-based 3D simulation** and **simulation efficiency**. I am currently more focused on **simulation-driven embodied AI**, particularly **deformable object manipulation**.
+My previous research and engineering work centered on **neural simulation** and **scalable simulation**. I am currently more focused on **simulation-driven embodied AI**, particularly **deformable object manipulation**.
 
 ## News
 
@@ -23,9 +23,9 @@ My previous research and engineering work centered on **learning-based 3D simula
 
 ## Research Interests
 
-* **Learning-based simulation:** How can we learn controllable and predictive 3D simulations from observations?
-* **Simulation efficiency:** How can we reduce the data and computation needed to build, run, and adapt simulations?
-* **Simulation-driven embodied AI:** How can we narrow the gap between simulation and reality so that manipulation skills learned in simulation work reliably on physical robots?
+* **Neural Simulation:** How can we learn controllable and predictive 3D simulations from observations?
+* **Scalable Simulation:** How can we reduce the data and computation needed to build, run, and adapt simulations?
+* **Simulation-driven Embodied AI:** How can we narrow the gap between simulation and reality so that manipulation skills learned in simulation work reliably on physical robots?
 
 ---
 
@@ -36,7 +36,7 @@ My previous research and engineering work centered on **learning-based 3D simula
 **NeurIPS 2026 - Second Author, Corresponding Author**<br>
 Ping Guo, **Zhiqi Huang**<sup>*</sup>, Xinran Li
 
-FTC-Seg improves **learning from limited supervision** by making better use of unlabeled observations. Residual feature refinement and class-adaptive pseudo-label thresholds address noise and class imbalance in semi-supervised semantic segmentation, reducing reliance on manual annotation.
+FTC-Seg reduces **reliance on manual annotation** by learning from limited labels and unlabeled observations. Residual feature refinement and class-adaptive pseudo-label thresholds improve semi-supervised semantic segmentation under noise and class imbalance.
 
 <a class="pub-link" href="https://arxiv.org/abs/2609.33668">arXiv</a>
 <a class="pub-link" href="https://github.com/pingggg516/FTC-Seg">Code</a>
@@ -81,13 +81,13 @@ Research interests in **simulation-driven embodied AI** for deformable object ma
 
 **Research Assistant** - *2024 - 2025*
 
-Researched **learning-based 3D appearance simulation**, developing controllable head avatars and relightable materials from visual and semantic inputs.
+Researched **neural models for 3D appearance simulation**, developing controllable head avatars and relightable materials from visual and semantic inputs.
 
 ### 4399 Games
 
 **Graphics Engineer / Senior Graphics Engineer** - *2021 - 2024*
 
-Worked on **building and running 3D simulations efficiently**, with a focus on physically based appearance and reducing computational cost.
+Focused on **making 3D simulation more scalable**, through reusable asset and rendering pipelines and optimization of physics solvers and engine runtime.
 
 * **Appearance simulation:** Developed shaders and physically based material systems for *Era of Conquest*, alongside reusable asset and rendering pipelines across mobile, PC, and web.
 * **Computational efficiency:** Optimized rendering, physics solvers, and simulation engine runtime for real-time execution, with an emphasis on mobile performance.
